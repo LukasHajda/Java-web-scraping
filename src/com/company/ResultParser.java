@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.List;
 
 public class ResultParser {
@@ -21,6 +22,7 @@ public class ResultParser {
     private final By findTdTag_tagName = new By.ByTagName("td");
     private final By findId = new By.ByClassName("event-info-number");
     private ArrayList<Result> allResults = new ArrayList<>();
+    private Hashtable<String, ArrayList<Result>> resultTable = new Hashtable<>();
 
     private  String date;
 
@@ -34,80 +36,17 @@ public class ResultParser {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-        this.date = dtf.format(LocalDateTime.now().minusDays(1));
+        //this.date = dtf.format(LocalDateTime.now().minusDays(1));
+        this.date = dtf.format(LocalDateTime.now());
 
         System.out.println(this.date);
     }
 
     public void parsing() {
 
-//        int matches = 0;
-//        int draw = 0;
-//
-//        for(String sport : this.allSports) {
-//
-//
-//            int day_count = 1;
-//
-//            while (day_count++ != 120) {
-//
-//                String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + sport  + "/" + this.date;
-//
-//                this.driver = new FirefoxDriver();
-//
-//                this.driver.get(link);
-//
-//                this.waitForLoad();
-//
-//                this.initializeWebsite();
-//
-//                List<WebElement> allTables = driver.findElements(findAllResultBlocks_xPath);
-//
-//                ArrayList<WebElement> arrTables = new ArrayList<>(allTables);
-//
-//                for(WebElement table : arrTables) {
-//
-//                    WebElement tBody = table.findElement(findTbody);
-//
-//                    List<WebElement> allTrTags = tBody.findElements(findAllTrTags);
-//                    ArrayList<WebElement> arrTrTags = new ArrayList<>(allTrTags);
-//
-//                    for(WebElement tr : arrTrTags) {
-//
-//                        matches++;
-//
-//                        List<WebElement> allTdTags = tr.findElements(findTdTag_tagName);
-//                        ArrayList<WebElement> arrTdTags = new ArrayList<>(allTdTags);
-//
-//                        WebElement idTag = arrTdTags.get(0).findElement(findId);
-//
-//                        int id = Integer.parseInt(idTag.getText());
-//
-//                        String[] results = arrTdTags.get(1).getText().split(",");
-//
-//
-//                        if (results.length < 3) continue;
-//
-//                        if (results[0].equals("0") || results[1].equals("0") || results[2].equals("0")) draw++;
-//
-//
-////                        Result result = new Result(id, results);
-////
-////                        this.allResults.add(result);
-//
-//
-//                    }
-//
-//                }
-//
-//                this.driver.close();
-//
-//                this.date = DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDateTime.now().minusDays(day_count));
-//
-//            }
+        for (String sport : this.allSports) {
 
-
-            String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + "futbal"  + "/" + this.date;
+            String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + sport  + "/" + this.date;
 
             this.driver.get(link);
 
@@ -141,7 +80,9 @@ public class ResultParser {
                     if (results.length < 3) continue;
 
 
-                    Result result = new Result(id, results);
+                    Result result = new Result(id, results, sport);
+
+                    this.addToHashTableMatches(result);
 
                     this.allResults.add(result);
 
@@ -149,17 +90,29 @@ public class ResultParser {
                 }
 
             }
-
-            this.driver.close();
-
-
-            this.printResults();
-
-
-
         }
 
+        this.driver.close();
 
+        this.printResults();
+
+    }
+
+    private void addToHashTableMatches(Result result) {
+
+        if ( this.resultTable.get(result.getSportType()) == null) {
+            this.resultTable.put(result.getSportType(), new ArrayList<>());
+
+            ArrayList<Result> arr = this.resultTable.get(result.getSportType());
+
+            arr.add(result);
+
+        }else {
+            ArrayList<Result> arr = this.resultTable.get(result.getSportType());
+
+            arr.add(result);
+        }
+    }
 
 
     private void printResults() {

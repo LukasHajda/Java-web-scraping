@@ -1,9 +1,7 @@
 package com.company;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.Map;
 
 public class Main {
 
@@ -82,24 +80,6 @@ public class Main {
 
 
         Hashtable<String, ArrayList<Match>> matches = parser.getMatchesTable();
-
-
-        System.out.println("IDEEEEEEEm");
-
-//        for (Map.Entry<String, ArrayList<Match>> entry : matches.entrySet()) {
-//            int count = 0;
-//            //System.out.println("SPORT: " + entry.getKey());
-//
-//            count += entry.getValue().size();
-//
-//            for(Match match : entry.getValue()) {
-//                System.out.println(match.toString());
-//            }
-//
-//            System.out.println("Korekcia " + entry.getKey() + " Pocet: " + count);
-//
-//            System.out.println("***********************************************************");
-//        }
 
 
         Bet bet = new Bet(matches);
