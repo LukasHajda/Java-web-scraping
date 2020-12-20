@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="443ff3d3-139d-41a1-9be3-947b24eb6cc2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iKlmikKZZ4jRVZXA7vrCR1yV9W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jars/libs/okio-1.14.0.jar" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Chomsky_Bot" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="443ff3d3-139d-41a1-9be3-947b24eb6cc2" name="Default Changelist" comment="" />
+      <created>1601664344347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601664344347</updated>
+      <workItem from="1601664352303" duration="5979000" />
+      <workItem from="1601753068371" duration="5696000" />
+      <workItem from="1601794094089" duration="1152000" />
+      <workItem from="1602180855323" duration="3786000" />
+      <workItem from="1602601841013" duration="1927000" />
+      <workItem from="1602613229200" duration="7367000" />
+      <workItem from="1602696705406" duration="11202000" />
+      <workItem from="1602794376147" duration="6672000" />
+      <workItem from="1602872784114" duration="11172000" />
+      <workItem from="1602958710824" duration="6747000" />
+      <workItem from="1603111405122" duration="1056000" />
+      <workItem from="1603133149009" duration="4757000" />
+      <workItem from="1603392552746" duration="7038000" />
+      <workItem from="1603742938932" duration="2001000" />
+      <workItem from="1603781002414" duration="7454000" />
+      <workItem from="1603823844554" duration="1747000" />
+      <workItem from="1603831166952" duration="3751000" />
+      <workItem from="1603876462024" duration="2652000" />
+      <workItem from="1604005555938" duration="3395000" />
+      <workItem from="1604076595454" duration="3199000" />
+      <workItem from="1604085702223" duration="6472000" />
+      <workItem from="1604131597435" duration="6085000" />
+      <workItem from="1604158553284" duration="2973000" />
+      <workItem from="1604168691021" duration="439000" />
+      <workItem from="1604170993933" duration="5239000" />
+      <workItem from="1604215352650" duration="10909000" />
+      <workItem from="1604255682223" duration="4250000" />
+      <workItem from="1604342435231" duration="599000" />
+      <workItem from="1604836568808" duration="4000" />
+      <workItem from="1605371499833" duration="45000" />
+      <workItem from="1605703611897" duration="757000" />
+      <workItem from="1608468779842" duration="1360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="236" width="594" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1604262743361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" width="594" height="587" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604262743361" />
+    <state x="605" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604150427860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604150427860" />
+    <state x="757" y="415" width="504" height="358" key="DetectedRootsChooserDialog" timestamp="1602588167247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="415" width="504" height="358" key="DetectedRootsChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602588167247" />
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1602588097347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602588097347" />
+    <state width="1877" height="593" key="GridCell.Tab.0.bottom" timestamp="1604263367378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="661" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
+    <state width="1877" height="593" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604263367378" />
+    <state width="1877" height="593" key="GridCell.Tab.0.center" timestamp="1604263367378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="661" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
+    <state width="1877" height="593" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604263367378" />
+    <state width="1877" height="593" key="GridCell.Tab.0.left" timestamp="1604263367378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="661" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
+    <state width="1877" height="593" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604263367378" />
+    <state width="1877" height="593" key="GridCell.Tab.0.right" timestamp="1604263367378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="661" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
+    <state width="1877" height="593" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604263367378" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604230854324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604230854324" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604230854324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604230854324" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604230854324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604230854324" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604230854324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604230854324" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1602588177977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602588177977" />
+    <state x="342" y="140" key="new project wizard" timestamp="1605703633497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605703633497" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603833731071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603833731071" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604229553101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604229553101" />
+  </component>
+</project>

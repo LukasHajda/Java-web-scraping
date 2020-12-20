@@ -1,0 +1,159 @@
+9502;FA 2000  (2.36) VS  Roskilde (2.78);2020-10-31T13:45;futbal Bet: 3
+13818;Krupa  (2.77) VS  Tuzla City (2.4);2020-10-31T14:00;futbal Bet: 3
+757;Hamrun  (2.7) VS  Gzira Utd. (2.2);2020-10-31T14:00;futbal Bet: 3
+7262;Namungo  (2.25) VS  Dodoma (3.45);2020-10-31T14:00;futbal Bet: 3
+753;Biashara Mara United  (3.4) VS  Young Africans (2.2);2020-10-31T14:00;futbal Bet: 3
+9100;G.A.Eagles  (2.02) VS  Excelsior (3.25);2020-10-31T14:00;futbal Bet: 3
+636;Junak Sinj  (2.54) VS  Bijelo Brdo (2.4);2020-10-31T14:00;futbal Bet: 3
+8695;Cittadella  (2.83) VS  Monza (2.65);2020-10-31T14:00;futbal Bet: 3
+9438;Bursa  (2.25) VS  Bolu (2.98);2020-10-31T14:00;futbal Bet: 3
+9471;BK Frem  (2.2) VS  VSK Aarhus (2.97);2020-10-31T14:00;futbal Bet: 3
+9475;Naesby  (2.59) VS  Dalum (2.3);2020-10-31T14:00;futbal Bet: 3
+9468;Aarhus Fremad  (2.93) VS  Jammerbugt (2.12);2020-10-31T14:00;futbal Bet: 3
+9510;Skovshoved  (2.1) VS  KFUM Roskilde (2.84);2020-10-31T14:00;futbal Bet: 3
+9627;Verl  (2.1) VS  Zwickau (3.3);2020-10-31T14:00;futbal Bet: 3
+9621;Hallescher  (2.52) VS  U´haching (2.65);2020-10-31T14:00;futbal Bet: 3
+9625;Uerdingen  (2.83) VS  Saarbrücken (2.35);2020-10-31T14:00;futbal Bet: 3
+10763;Voluntari 2  (3.05) VS  FCSB 2 (2.0);2020-10-31T14:00;futbal Bet: 3
+13195;Oskarshamn  (2.51) VS  Lindome (2.3);2020-10-31T14:00;futbal Bet: 3
+682;Exeter  (2.45) VS  Carlisle (2.72);2020-10-31T14:00;futbal Bet: 3
+1976;Illertissen  (2.2) VS  Fürth II (2.67);2020-10-31T14:00;futbal Bet: 3
+1974;Garching  (2.4) VS  Heimstetten (2.5);2020-10-31T14:00;futbal Bet: 3
+1805;Bahlinger  (2.37) VS  Hessen Kassel (2.45);2020-10-31T14:00;futbal Bet: 3
+1832;TSV Steinbach  (2.4) VS  Ulm (2.5);2020-10-31T14:00;futbal Bet: 3
+1827;Mainz II  (3.05) VS  Homburg (2.0);2020-10-31T14:00;futbal Bet: 3
+1866;RW Oberhausen  (2.14) VS  Wiedenbruck (2.83);2020-10-31T14:00;futbal Bet: 3
+1862;Lippstadt  (2.32) VS  Wegberg Beeck (2.69);2020-10-31T14:00;futbal Bet: 3
+1847;Fortuna Köln  (2.35) VS  Dortmund II (2.61);2020-10-31T14:00;futbal Bet: 3
+1878;Straelen  (2.76) VS  Alem.Aachen (2.18);2020-10-31T14:00;futbal Bet: 3
+12673;Bradford PA  (2.91) VS  Chorley (2.15);2020-10-31T14:00;futbal Bet: 3
+13234;Orlando Pirates  (2.61) VS  Kaizer Chiefs (2.47);2020-10-31T14:00;futbal Bet: 3
+495;Akhmat Grozny  (2.52) VS  FK Krasnodar (2.62);2020-10-31T14:30;futbal Bet: 3
+1707;Pjunik Jerevan  (3.0) VS  Ararat Jerevan (2.15);2020-10-31T15:00;futbal Bet: 3
+107;TPS Turku  (2.77) VS  Seinäjoen JK (2.5);2020-10-31T15:00;futbal Bet: 3
+7159;Vozdovac  (3.0) VS  Bačka Topola (2.2);2020-10-31T15:00;futbal Bet: 3
+7626;Hobro  (2.5) VS  Fremad Amager (2.55);2020-10-31T15:00;futbal Bet: 3
+7639;IF Gnistan  (2.35) VS  Kokkola (2.61);2020-10-31T15:00;futbal Bet: 3
+7643;Mikkelin Palloilijat  (2.76) VS  Vaasan PS (2.32);2020-10-31T15:00;futbal Bet: 3
+7632;Ekenas IF  (3.3) VS  AC Oulu (2.06);2020-10-31T15:00;futbal Bet: 3
+8581;Paris FC  (2.25) VS  Caen (3.5);2020-10-31T15:00;futbal Bet: 3
+9390;Dalkurd  (3.25) VS  Jönköping Sodra (2.06);2020-10-31T15:00;futbal Bet: 3
+9485;Bronshoj  (2.97) VS  Hillerod (2.1);2020-10-31T15:00;futbal Bet: 3
+9555;Pro Vercelli  (2.01) VS  Giana Erminio (4.35);2020-10-31T15:00;futbal Bet: 3
+12150;Paganese  (3.1) VS  Teramo (2.52);2020-10-31T15:00;futbal Bet: 3
+1538;Mac.Petah Tikva  (2.25) VS  Hap.Haifa (3.25);2020-10-31T15:15;futbal Bet: 3
+1737;Augsburg  (2.26) VS  Mainz (3.25);2020-10-31T15:30;futbal Bet: 3
+12082;Amorebieta  (2.25) VS  Barakaldo (3.35);2020-10-31T15:45;futbal Bet: 3
+14959;Nordsjaeland  (3.3) VS  Midtjylland (2.04);2020-10-31T16:00;futbal Bet: 3
+7031;Warrenpoint  (2.0) VS  Portadown (3.2);2020-10-31T16:00;futbal Bet: 3
+7026;Coleraine  (2.4) VS  Glentoran (2.69);2020-10-31T16:00;futbal Bet: 3
+7067;Dundee Utd.  (2.1) VS  Ross County (3.45);2020-10-31T16:00;futbal Bet: 3
+7111;Livingston  (2.12) VS  Motherwell (3.35);2020-10-31T16:00;futbal Bet: 3
+7434;Oleksandrija  (2.91) VS  Desna (2.3);2020-10-31T16:00;futbal Bet: 3
+7543;Preston  (2.17) VS  Birmingham (3.75);2020-10-31T16:00;futbal Bet: 3
+7562;Swansea  (2.4) VS  Blackburn (3.0);2020-10-31T16:00;futbal Bet: 3
+7541;Middlesbrough  (2.48) VS  Nottingham (3.35);2020-10-31T16:00;futbal Bet: 3
+7546;Q.P.R.  (3.05) VS  Cardiff (2.52);2020-10-31T16:00;futbal Bet: 3
+7530;Barnsley  (3.25) VS  Watford (2.4);2020-10-31T16:00;futbal Bet: 3
+7564;Wycombe  (3.95) VS  Sheffield Wed. (2.02);2020-10-31T16:00;futbal Bet: 3
+959;HB Torshavn II  (2.51) VS  B36 Torshavn II (2.3);2020-10-31T16:00;futbal Bet: 3
+9278;Inverness  (2.18) VS  Arbroath (3.05);2020-10-31T16:00;futbal Bet: 3
+9292;Morton  (2.5) VS  Ayr (2.67);2020-10-31T16:00;futbal Bet: 3
+9365;Cartagena  (2.16) VS  Albacete (3.8);2020-10-31T16:00;futbal Bet: 3
+8684;Brescia  (2.05) VS  Entella (4.05);2020-10-31T16:00;futbal Bet: 3
+8706;LR Vicenza  (2.1) VS  Pisa (3.65);2020-10-31T16:00;futbal Bet: 3
+8723;Venezia  (2.62) VS  Empoli (2.79);2020-10-31T16:00;futbal Bet: 3
+8683;Ascoli  (3.0) VS  Pordenone (2.45);2020-10-31T16:00;futbal Bet: 3
+9456;Ipswich  (2.05) VS  Crewe (3.3);2020-10-31T16:00;futbal Bet: 3
+9450;Doncaster  (2.4) VS  Lincoln City (2.92);2020-10-31T16:00;futbal Bet: 3
+9451;Fleetwood  (2.45) VS  Oxford (2.85);2020-10-31T16:00;futbal Bet: 3
+9460;Rochdale  (2.5) VS  Bristol Rovers (2.7);2020-10-31T16:00;futbal Bet: 3
+9467;Wigan  (2.71) VS  Northampton (2.43);2020-10-31T16:00;futbal Bet: 3
+9449;Burton  (2.79) VS  Blackpool (2.37);2020-10-31T16:00;futbal Bet: 3
+9646;Forfar  (2.75) VS  Montrose (2.3);2020-10-31T16:00;futbal Bet: 3
+12059;Oviedo B  (2.42) VS  Marino de Luanco (3.05);2020-10-31T16:00;futbal Bet: 3
+892;Newport  (2.25) VS  Harrogate Town (3.0);2020-10-31T16:00;futbal Bet: 3
+701;Leyton  (2.3) VS  Bolton (2.98);2020-10-31T16:00;futbal Bet: 3
+943;Stevenage  (2.3) VS  Grimsby (3.1);2020-10-31T16:00;futbal Bet: 3
+718;Mansfield  (2.4) VS  Walsall (2.83);2020-10-31T16:00;futbal Bet: 3
+605;Barrow  (2.55) VS  Bradford City (2.81);2020-10-31T16:00;futbal Bet: 3
+610;Crawley  (2.55) VS  Cambridge Utd. (2.61);2020-10-31T16:00;futbal Bet: 3
+697;Cheltenham  (2.6) VS  Forest Green (2.59);2020-10-31T16:00;futbal Bet: 3
+9664;Stirling  (2.03) VS  Annan (3.3);2020-10-31T16:00;futbal Bet: 3
+9650;Edinburgh City  (2.3) VS  Elgin (2.82);2020-10-31T16:00;futbal Bet: 3
+9649;Cowdenbeath  (2.65) VS  Stenhousemuir (2.43);2020-10-31T16:00;futbal Bet: 3
+9665;Stranraer  (3.3) VS  Queens Park (2.02);2020-10-31T16:00;futbal Bet: 3
+9821;Bromley  (2.62) VS  Eastleigh (2.45);2020-10-31T16:00;futbal Bet: 3
+9822;Dover  (2.65) VS  Altrincham (2.48);2020-10-31T16:00;futbal Bet: 3
+9837;Kings Lynn  (2.68) VS  Woking (2.35);2020-10-31T16:00;futbal Bet: 3
+12722;Telford  (2.0) VS  Alfreton (3.25);2020-10-31T16:00;futbal Bet: 3
+12675;Gloucester City  (2.24) VS  Chester (2.83);2020-10-31T16:00;futbal Bet: 3
+12674;Curzon Ashton  (2.79) VS  Darlington (2.2);2020-10-31T16:00;futbal Bet: 3
+12695;Southport  (3.3) VS  Boston Utd. (2.1);2020-10-31T16:00;futbal Bet: 3
+10643;St.Albans  (2.0) VS  Chippenham (3.25);2020-10-31T16:00;futbal Bet: 3
+10629;Eastbourne  (2.1) VS  Welling (2.9);2020-10-31T16:00;futbal Bet: 3
+10641;Slough  (2.26) VS  Bath City (2.83);2020-10-31T16:00;futbal Bet: 3
+10628;Dulwich Hamlet  (2.35) VS  Chelmsford City (2.53);2020-10-31T16:00;futbal Bet: 3
+9858;Billericay  (2.36) VS  Ebbsfleet (2.74);2020-10-31T16:00;futbal Bet: 3
+10108;Dartford  (2.53) VS  Havant Waterlooville (2.56);2020-10-31T16:00;futbal Bet: 3
+9961;Braintree  (3.05) VS  Hemel Hempstead (2.05);2020-10-31T16:00;futbal Bet: 3
+1987;Bilbao  (3.0) VS  FC Sevilla (2.7);2020-10-31T16:15;futbal Bet: 3
+6953;Volos NFC  (2.33) VS  AE Larissa (3.45);2020-10-31T16:15;futbal Bet: 3
+1540;M.Netanya  (2.08) VS  Hap.K.Saba (3.6);2020-10-31T16:15;futbal Bet: 3
+7003;Abha  (2.97) VS  Al Ettifaq (2.2);2020-10-31T16:15;futbal Bet: 3
+1460;Belenenses  (2.65) VS  Farense (3.05);2020-10-31T16:30;futbal Bet: 3
+577;ASF Bobo Dioulasso  (2.4) VS  Majestic (3.0);2020-10-31T16:30;futbal Bet: 3
+1798;Al Wehdat  (2.15) VS  Al Faisaly (JOR) (3.2);2020-10-31T16:30;futbal Bet: 3
+12104;Mutilvera  (2.85) VS  Calahorra (2.35);2020-10-31T16:30;futbal Bet: 3
+12117;Atzeneta  (2.5) VS  Orihuela (2.74);2020-10-31T16:30;futbal Bet: 3
+9569;Arezzo  (3.45) VS  Triestina (2.03);2020-10-31T16:30;futbal Bet: 3
+13063;Pohronie  (2.3) VS  Zl.Moravce (2.97);2020-10-31T17:00;futbal Bet: 3
+1560;Rennes  (2.05) VS  Brest (3.75);2020-10-31T17:00;futbal Bet: 3
+14112;OFK Titograd  (2.1) VS  Rudar Pljevlja (3.25);2020-10-31T17:00;futbal Bet: 3
+6542;Honvéd  (2.1) VS  Mezökövesd (3.25);2020-10-31T17:00;futbal Bet: 3
+565;Cienciano  (2.52) VS  Cajamarca (2.67);2020-10-31T17:00;futbal Bet: 3
+6900;Hartberg  (3.15) VS  Austria (2.07);2020-10-31T17:00;futbal Bet: 3
+547;Soči  (2.6) VS  Lokomotiv M. (2.8);2020-10-31T17:00;futbal Bet: 3
+1542;Kir.Shmona  (2.2) VS  Hap.Hadera (3.3);2020-10-31T17:15;futbal Bet: 3
+1955;APOEL Nicosia  (2.37) VS  Apollon Limassol (2.83);2020-10-31T17:30;futbal Bet: 3
+1303;Huachipato  (2.3) VS  O Higgins (3.0);2020-10-31T17:30;futbal Bet: 3
+9407;Chiasso  (2.77) VS  Wil (2.25);2020-10-31T17:30;futbal Bet: 3
+9396;GIF Sundsvall  (2.0) VS  Örgryte (3.3);2020-10-31T17:30;futbal Bet: 3
+7009;Al Ittihad  (2.95) VS  Al Ahli (2.1);2020-10-31T17:50;futbal Bet: 3
+13936;Dečic Tuzi  (2.08) VS  Iskra Danilovgrad (3.25);2020-10-31T18:00;futbal Bet: 3
+6832;Odds BK  (2.0) VS  Sarpsborg 08 (3.5);2020-10-31T18:00;futbal Bet: 3
+812;Aldosivi  (2.6) VS  Estudiantes (2.63);2020-10-31T18:00;futbal Bet: 3
+133;Hearts  (2.8) VS  Hibernian (2.4);2020-10-31T18:00;futbal Bet: 3
+9368;Las Palmas  (2.47) VS  Real Oviedo (3.4);2020-10-31T18:15;futbal Bet: 3
+9836;Hartlepool  (2.25) VS  Torquay (2.93);2020-10-31T18:20;futbal Bet: 3
+1818;M gladbach  (2.81) VS  Leipzig (2.5);2020-10-31T18:30;futbal Bet: 3
+6926;Lamia  (4.55) VS  Panathinaikos (2.02);2020-10-31T18:30;futbal Bet: 3
+8461;Le Havre  (2.2) VS  Pau (3.35);2020-10-31T19:00;futbal Bet: 3
+8406;AC Ajaccio  (2.72) VS  Troyes (2.76);2020-10-31T19:00;futbal Bet: 3
+8421;Chambly  (2.88) VS  Dunkerque (2.65);2020-10-31T19:00;futbal Bet: 3
+8583;Rodez Aveyron  (3.15) VS  Auxerre (2.43);2020-10-31T19:00;futbal Bet: 3
+8584;Valenciennes  (4.05) VS  Clermont (2.0);2020-10-31T19:00;futbal Bet: 3
+9425;Schaffhausen  (2.28) VS  Kriens (2.57);2020-10-31T19:00;futbal Bet: 3
+1369;Mushuc Runa  (2.1) VS  Técnico Un. (3.1);2020-10-31T19:15;futbal Bet: 3
+578;U.San Martin  (2.2) VS  Dep.Binacional (2.97);2020-10-31T19:15;futbal Bet: 3
+6544;MOL Fehervar  (2.52) VS  Ferencváros (2.81);2020-10-31T19:30;futbal Bet: 3
+1318;Curico Unido  (3.1) VS  Palestino (2.26);2020-10-31T20:00;futbal Bet: 3
+9133;Dallas  (2.05) VS  Houston (3.4);2020-10-31T20:30;futbal Bet: 3
+7601;Confianca SE  (2.6) VS  Chapecoense SC (3.0);2020-10-31T20:30;futbal Bet: 3
+7611;Oeste SP  (3.9) VS  Sampaio Correa MA (2.06);2020-10-31T20:30;futbal Bet: 3
+526;Hermannstadt  (3.5) VS  U.Craiova (2.05);2020-10-31T20:45;futbal Bet: 3
+7570;Westerlo  (3.25) VS  St.Gilloise (2.05);2020-10-31T20:45;futbal Bet: 3
+1417;Willem II Tilburg  (3.1) VS  Vitesse Arnhem (2.35);2020-10-31T21:00;futbal Bet: 3
+13823;Botafogo RJ  (2.35) VS  Ceará CE (3.1);2020-10-31T21:00;futbal Bet: 3
+1537;Maritimo  (2.22) VS  Nacional (3.45);2020-10-31T21:30;futbal Bet: 3
+1600;Jaguares Córdoba  (2.08) VS  Envigado (3.65);2020-10-31T21:30;futbal Bet: 3
+1703;Real de Minas  (2.6) VS  UPNFM (2.54);2020-10-31T22:00;futbal Bet: 3
+1475;Mineros de Guayana  (2.0) VS  Estud.de Mérida (3.3);2020-10-31T22:00;futbal Bet: 3
+109;General Díaz  (2.55) VS  Sp.Luqueno (2.62);2020-10-31T22:15;futbal Bet: 3
+1599;Cobán Imperial  (2.05) VS  Guastatoya (3.22);2020-10-31T22:30;futbal Bet: 3
+1330;A.Italiano  (3.1) VS  Everton Vina del Mar (2.25);2020-10-31T22:30;futbal Bet: 3
+814;Argentinos  (2.68) VS  San Lorenzo (2.63);2020-10-31T22:45;futbal Bet: 3
+13897;Coritiba PR  (2.4) VS  Atl.Goianiense GO (3.25);2020-10-31T23:00;futbal Bet: 3
+13824;Corinthians SP  (3.45) VS  Internacional RS (2.35);2020-10-31T23:00;futbal Bet: 3
+7612;Operário PR  (2.55) VS  Botafogo SP (3.05);2020-10-31T23:00;futbal Bet: 3
+7600;Avai SC  (3.35) VS  Am.Mineiro MG (2.23);2020-10-31T23:00;futbal Bet: 3
