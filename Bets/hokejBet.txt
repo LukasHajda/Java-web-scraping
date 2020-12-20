@@ -1,19 +1,30 @@
-2669;Örebro  (2.0) VS  Skelleftea (3.05);2020-10-31T15:15;hokej Bet: 3
-2644;Jyp Jyvaskyla  (2.4) VS  Pelicans Lahti (2.55);2020-10-31T16:00;hokej Bet: 3
-2649;TPS Turku  (2.75) VS  IFK Helsinki (2.22);2020-10-31T16:00;hokej Bet: 3
-2645;KalPa Kuopio  (2.8) VS  Ilves (2.21);2020-10-31T16:00;hokej Bet: 3
-2646;SaiPa  (3.0) VS  Hameenlinna (2.1);2020-10-31T16:00;hokej Bet: 3
-2679;Vipiteno  (2.56) VS  Asiago (2.0);2020-10-31T19:30;hokej Bet: 3
-2068;Baie Comeau Drakkar  (2.1) VS  Rimouski Oceanic (2.6);2020-10-31T21:00;hokej Bet: 3
-2704;Magnitogorsk  (2.48) VS  Traktor Čeljabinsk (2.48);2020-11-01T13:00;hokej Bet: 3
-2706;Nižnekamsk  (2.35) VS  Novosibirsk (2.58);2020-11-01T15:00;hokej Bet: 3
-2707;Soči  (2.52) VS  Viťaz Podolsk (2.4);2020-11-01T15:00;hokej Bet: 3
-2718;Sönderjyske  (2.0) VS  Frederikshavn (2.84);2020-11-01T15:00;hokej Bet: 3
-2701;Dinamo Moskva  (2.87) VS  CSKA Moskva (2.15);2020-11-01T15:30;hokej Bet: 3
-2766;Grums  (2.25) VS  Koping (2.31);2020-11-01T16:00;hokej Bet: 3
-2768;Hudiksvalls  (2.25) VS  Huddinge (2.34);2020-11-01T16:00;hokej Bet: 3
-2769;Kallinge Ronneby  (2.32) VS  Vimmerby (2.25);2020-11-01T16:00;hokej Bet: 3
-2688;Tranas  (2.35) VS  Karlskrona (2.25);2020-11-01T16:00;hokej Bet: 3
-2803;Detva  (2.5) VS  Košice (2.27);2020-11-01T17:00;hokej Bet: 3
-2730;Manglerud  (2.2) VS  Stjernen (2.48);2020-11-01T17:00;hokej Bet: 3
-2757;Vasterviks  (2.0) VS  AIK Stockholm (2.94);2020-11-02T19:00;hokej Bet: 3
+29848;B3;4.12;4.66
+29849;B3;4.56;4.24
+29850;B3;4.0;4.76
+31079;B2;2.86
+29851;B3;4.26;4.52
+31089;B3;4.7;4.72
+31082;B2;2.54
+29852;B3;4.42;4.36
+29853;B3;4.36;4.42
+31083;B1;3.14
+2371;B1;3.04
+31090;B1;2.72
+31081;B3;4.46;5.0
+31084;B2;2.94
+29854;B3;4.56;4.24
+29855;B3;4.24;4.56
+2157;B3;4.1;6.0
+2118;B2;2.88
+31098;B1;2.56
+31099;B1;3.1
+31052;B2;3.0
+2161;B3;6.0;4.0
+2397;B1;3.02
+2396;B3;4.98;4.9
+31049;B2;3.08
+31080;B2;2.9
+2053;B3;5.2;4.66
+2681;B3;4.84;4.66
+2756;B1;3.1
+30619;B2;3.2

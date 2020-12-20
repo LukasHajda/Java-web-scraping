@@ -3,6 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.Map;
 
 public class Main {
 
@@ -10,16 +11,16 @@ public class Main {
 
         ArrayList<String> allSports = new ArrayList<>();
         allSports.add("futbal");
-//        allSports.add("hokej");
-//        allSports.add("basketbal");
-//        allSports.add("hadzana");
-//        allSports.add("americky-futbal");
+        allSports.add("hokej");
+        allSports.add("basketbal");
+        allSports.add("hadzana");
+        allSports.add("americky-futbal");
 
-        //MatchParser parser = new MatchParser(allSports);
+        MatchParser parser = new MatchParser(allSports);
 
-        ResultParser resultParser = new ResultParser(allSports);
-
-        resultParser.parsing();
+//        ResultParser resultParser = new ResultParser(allSports);
+//
+//        resultParser.parsing();
 
 //        ArrayList<Result> results = resultParser.getAllResults();
 //
@@ -77,15 +78,33 @@ public class Main {
 //        System.out.println("pocet podanych: " + count);
 
 
-        //parser.parsing();
+        parser.parsing();
 
 
-        //Hashtable<String, ArrayList<Match>> matches = parser.getMatchesTable();
+        Hashtable<String, ArrayList<Match>> matches = parser.getMatchesTable();
 
 
-        //Bet bet = new Bet(matches);
+        System.out.println("IDEEEEEEEm");
 
-        //bet.calculate();
+//        for (Map.Entry<String, ArrayList<Match>> entry : matches.entrySet()) {
+//            int count = 0;
+//            //System.out.println("SPORT: " + entry.getKey());
+//
+//            count += entry.getValue().size();
+//
+//            for(Match match : entry.getValue()) {
+//                System.out.println(match.toString());
+//            }
+//
+//            System.out.println("Korekcia " + entry.getKey() + " Pocet: " + count);
+//
+//            System.out.println("***********************************************************");
+//        }
+
+
+        Bet bet = new Bet(matches);
+
+        bet.calculate();
 
 
 

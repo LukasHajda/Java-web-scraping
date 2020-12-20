@@ -34,6 +34,9 @@ public class MatchParser {
     private Hashtable<String, Integer>  matchesTableDates = new Hashtable<>();
     private Hashtable<String, ArrayList<Match>> matchesTable = new Hashtable<>();
 
+    // How many matches
+    private int amount = 0;
+
     public MatchParser(ArrayList<String> allSports) {
         this.allLinks = allSports;
     }
@@ -54,7 +57,7 @@ public class MatchParser {
             this.driver = new FirefoxDriver();
 
 
-            String link = "https://www.ifortuna.sk/stavkovanie/" + sport;
+            String link = "https://www.ifortuna.sk/stavkovanie/" + sport + "?selectDates=1&date=2020-12-21";
 
             this.driver.get(link);
 
@@ -128,6 +131,8 @@ public class MatchParser {
 
                     this.matches.add(match);
 
+                    this.amount++;
+
                 }
 
             }
@@ -139,9 +144,9 @@ public class MatchParser {
 
 //        this.printAllMatches();
 
-//        this.printHashTable();
-
         this.sortHashTable();
+
+//        this.printHashTable();
     }
 
     private void sortHashTable() {
@@ -171,23 +176,23 @@ public class MatchParser {
         return this.matchesTable;
     }
 
-//    private void printHashTable() {
-//        for (Map.Entry<String, ArrayList<Match>> entry : this.matchesTable.entrySet()) {
-//            int count = 0;
-//            //System.out.println("SPORT: " + entry.getKey());
-//
-//            count += entry.getValue().size();
-//
-//            for(Match match : entry.getValue()) {
-//                //System.out.println(match.toString());
-//            }
-//
-//            System.out.println("Korekcia " + entry.getKey() + " Pocet: " + count);
-//
-//           // System.out.println("***********************************************************");
-//        }
-//
-//    }
+    private void printHashTable() {
+        for (Map.Entry<String, ArrayList<Match>> entry : this.matchesTable.entrySet()) {
+            int count = 0;
+            //System.out.println("SPORT: " + entry.getKey());
+
+            count += entry.getValue().size();
+
+            for(Match match : entry.getValue()) {
+                System.out.println(match.toString());
+            }
+
+            System.out.println("Korekcia " + entry.getKey() + " Pocet: " + count);
+
+            System.out.println("***********************************************************");
+        }
+
+    }
 
     private LocalDateTime parseDate(String dateStr) {
 
@@ -220,12 +225,13 @@ public class MatchParser {
         return this.matches;
     }
 
-//    private void printAllMatches() {
-//        for (Match match : this.matches) {
-//            //if (match.getSportType().equals("hadzana")) System.out.println(match.toString());
-//        }
-//        System.out.println("Sum: " + this.matches.size());
-//    }
+    private void printAllMatches() {
+        for (Match match : this.matches) {
+            //if (match.getSportType().equals("hadzana")) System.out.println(match.toString());
+            System.out.println(match.toString());
+        }
+        System.out.println("Sum: " + this.matches.size());
+    }
 
     /**
      * After every scroll program has to wait for 6 seconds. Just in case of error.

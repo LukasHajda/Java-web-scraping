@@ -30,6 +30,8 @@ public class ResultParser {
     public ResultParser(ArrayList<String> allSports) {
         this.allSports = allSports;
 
+        this.driver = new FirefoxDriver();
+
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
         this.date = dtf.format(LocalDateTime.now().minusDays(1));
@@ -105,7 +107,7 @@ public class ResultParser {
 //            }
 
 
-            String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + sport  + "/" + this.date;
+            String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + "futbal"  + "/" + this.date;
 
             this.driver.get(link);
 
@@ -150,11 +152,14 @@ public class ResultParser {
 
             this.driver.close();
 
+
+            this.printResults();
+
+
+
         }
 
-        //this.printResults();
 
-    }
 
 
     private void printResults() {

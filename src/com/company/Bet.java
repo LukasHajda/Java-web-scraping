@@ -13,10 +13,30 @@ public class Bet {
     private Hashtable<String, ArrayList<Match>> matches;
     private int totalBet = 0;
 
+    private int doubleBet = 0;
+    private int classicBet = 0;
+
     private BufferedWriter currentFile;
 
     public Bet(Hashtable<String, ArrayList<Match>> matches) {
         this.matches = matches;
+
+//        for (Map.Entry<String, ArrayList<Match>> entry : matches.entrySet()) {
+//            int count = 0;
+//            //System.out.println("SPORT: " + entry.getKey());
+//
+//            count += entry.getValue().size();
+//
+//            for(Match match : entry.getValue()) {
+//                System.out.println(match.toString());
+//            }
+//
+//            System.out.println("Korekcia " + entry.getKey() + " Pocet: " + count);
+//
+//            System.out.println("***********************************************************");
+//        }
+
+        System.out.println("VELKOST: " + this.matches.size());
     }
 
 
@@ -45,6 +65,8 @@ public class Bet {
 
     public void calculate() {
 
+        System.out.println("kalkulujem");
+
         double profit1 = 0;
         double profit2 = 0;
 
@@ -61,11 +83,22 @@ public class Bet {
 
             for (Match match : entry.getValue()) {
 
+//                System.out.println(match.toString());
+
                 Team team1 = match.getTeam1();
                 Team team2 = match.getTeam2();
 
+
+                System.out.println(team1.getRate() + " || " + team2.getRate());
+
+
+
                 if (team1.getRate() >= 2.00 && team2.getRate() >= 2.00) {
                     this.totalBet += 4;
+
+                    this.doubleBet++;
+
+                    System.out.println(match.toString() + "  ----> Poda sa na obi dvoch");
 
                     match.setBet(3);
 
@@ -79,9 +112,18 @@ public class Bet {
 
                 }else {
 
-                    double diff = Math.abs(team1.getRate() - team1.getRate());
+                    double diff = team1.getRate() - team2.getRate();
+
+                    // use double math abs
+                    diff = Math.abs(diff);
+
+                    System.out.println("diff: " + diff);
 
                     if (diff < 2.00) continue;
+
+                    this.classicBet++;
+
+                    System.out.println(match.toString() + "  ----> Poda sa na jeden tim");
 
                     this.totalBet += 2;
 
@@ -129,7 +171,10 @@ public class Bet {
             double sum1 = Math.round((profit1 - this.totalBet) * 100.0) / 100.0;
             double sum2 = Math.round((profit2 - this.totalBet) * 100.0) / 100.0;
 
-            this.currentFile.write("konecny vyhra: " + sum1 + " alebo " + sum2);
+            this.currentFile.write("konecny vyhra: " + sum1 + " alebo " + sum2 + "\n");
+
+            this.currentFile.write("Dvojity bet: " + this.doubleBet + "\n");
+            this.currentFile.write("Klasicky bet: " + this.classicBet + "\n");
 
             this.currentFile.close();
 
