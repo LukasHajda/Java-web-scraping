@@ -1,6 +1,6 @@
-/out
-/Bets
+out/
+Bets/
 /geckodriver.exe
 /summary.txt
-/.idea
+.idea/
 /Chomsky_Bot.iml
