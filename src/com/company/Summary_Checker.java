@@ -16,6 +16,8 @@ public class Summary_Checker {
 
         int draw = 0;
         int win = 0;
+        int doubleWin = 0;
+        int classicWin = 0;
         int lose = 0;
         int count = 0;
         int noContest = 0;
@@ -66,6 +68,7 @@ public class Summary_Checker {
                             double v = Double.parseDouble(parsed[2]);
                             profit += (v - 2.0);
                             win++;
+                            classicWin++;
                         }
                     }
                 }
@@ -74,17 +77,19 @@ public class Summary_Checker {
                 if (parsed.length == 5) {
                     if (parsed[4].equals("R")) {
                         draw++;
-                        profit -= 4.0;
+                        profit -= 1.0;
                     }else if (parsed[4].equals("V1")) {
                         v = Double.parseDouble(parsed[2]);
 
-                        profit += (v - 4.0);
+                        profit += (v - 1.0);
                         win++;
+                        doubleWin++;
                     }else {
                         v = Double.parseDouble(parsed[3]);
 
-                        profit += (v - 4.0);
+                        profit += (v - 1.0);
                         win++;
+                        doubleWin++;
                     }
                 }
 
@@ -97,6 +102,8 @@ public class Summary_Checker {
         System.out.println("wins: " + win);
         System.out.println("lost: " + lose);
         System.out.println("No contest: " + noContest);
+        System.out.println("Double bet: " + doubleWin);
+        System.out.println("Classic: " + classicWin);
         System.out.println("All: " + count);
 
 

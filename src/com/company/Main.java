@@ -17,15 +17,18 @@ public class Main {
 //
 //        MatchParser parser = new MatchParser(allSports);
 
-//        Summary_Checker summary_checker = new Summary_Checker(allSports);
+        Summary_Checker summary_checker = new Summary_Checker(allSports);
+
+        summary_checker.parse();
+
+//        ResultParser resultParser = new ResultParser(allSports);
 //
-//        summary_checker.parse();
+//        resultParser.parsing();
+//        resultParser.writeToFile();
 
-        ResultParser resultParser = new ResultParser(allSports);
-
-        resultParser.parsing();
-        System.out.println("hash");
-        resultParser.writeToFile();
+//        FinalCheck finalCheck = new FinalCheck(allSports);
+//
+//        finalCheck.checkResults();
 
 //        ArrayList<Result> results = resultParser.getAllResults();
 //
