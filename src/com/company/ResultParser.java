@@ -6,11 +6,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
+import java.util.Map;
 
 public class ResultParser {
 
@@ -23,6 +28,7 @@ public class ResultParser {
     private final By findId = new By.ByClassName("event-info-number");
     private ArrayList<Result> allResults = new ArrayList<>();
     private Hashtable<String, ArrayList<Result>> resultTable = new Hashtable<>();
+    private BufferedWriter currentFile;
 
     private  String date;
 
@@ -133,6 +139,48 @@ public class ResultParser {
             Thread.sleep(6000);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+
+    }
+
+
+    public void writeToFile() {
+        System.out.println("kalkulujem");
+
+        for (Map.Entry<String, ArrayList<Result>> entry : this.resultTable.entrySet()) {
+
+
+            String sportType = entry.getKey();
+
+            System.out.println("Sport: " + sportType);
+
+            try {
+                this.currentFile = new BufferedWriter(new FileWriter(new File("Result/" + sportType + "Res.txt"), false));
+            }catch (Exception ex) {
+                System.out.println("Something went wrong with writing");
+                System.exit(1);
+            }
+
+            for (Result result : entry.getValue()) {
+
+                System.out.println("zapisujem");
+
+                try {
+                    this.currentFile.write(result.toString() + "\n");
+                } catch (IOException e) {
+                    System.out.println("Something went wrong with writing");
+                    System.exit(1);
+                }
+
+
+            }
+
+            try {
+                this.currentFile.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
         }
 
     }

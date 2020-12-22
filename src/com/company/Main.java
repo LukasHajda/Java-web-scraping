@@ -24,6 +24,8 @@ public class Main {
         ResultParser resultParser = new ResultParser(allSports);
 
         resultParser.parsing();
+        System.out.println("hash");
+        resultParser.writeToFile();
 
 //        ArrayList<Result> results = resultParser.getAllResults();
 //

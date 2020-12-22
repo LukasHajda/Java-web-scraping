@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import java.text.DateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 
 public class Result {
 
@@ -40,11 +41,6 @@ public class Result {
 
     @Override
     public String toString() {
-        StringBuilder st = new StringBuilder();
-        for (String value : this.res) {
-            st.append(value).append(", ");
-        }
-
-        return this.id + ";" + st;
+        return this.id + ";" + Arrays.toString(this.res);
     }
 }
