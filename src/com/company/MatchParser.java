@@ -57,7 +57,7 @@ public class MatchParser {
             this.driver = new FirefoxDriver();
 
 
-            String link = "https://www.ifortuna.sk/stavkovanie/" + sport + "?selectDates=1&date=2020-12-21";
+            String link = "https://www.ifortuna.sk/stavkovanie/" + sport + "?selectDates=1&date=2020-12-22";
 
             this.driver.get(link);
 

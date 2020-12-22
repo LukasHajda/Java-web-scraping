@@ -51,10 +51,10 @@ public class Bet {
 
     }
 
-    private void writeToFile(int betType, Match match, double value1, double value2) {
+    private void writeToFile(Match match, double value1, double value2) {
 
         try {
-            this.currentFile.write(match.getId() + ";B" + betType + ";" + value1 + ";" + value2 + "\n");
+            this.currentFile.write(match.getId() + ";B" + 3 + ";" + value1 + ";" + value2 + "\n");
         } catch (IOException e) {
             System.out.println("Something went wrong with writing");
             System.exit(1);
@@ -83,7 +83,6 @@ public class Bet {
 
             for (Match match : entry.getValue()) {
 
-//                System.out.println(match.toString());
 
                 Team team1 = match.getTeam1();
                 Team team2 = match.getTeam2();
@@ -94,18 +93,16 @@ public class Bet {
 
 
                 if (team1.getRate() >= 2.00 && team2.getRate() >= 2.00) {
-                    this.totalBet += 4;
+                    this.totalBet += 1;
 
                     this.doubleBet++;
 
-                    System.out.println(match.toString() + "  ----> Poda sa na obi dvoch");
-
                     match.setBet(3);
 
-                    double value1 = Math.round((team1.getRate() * 2) * 100.0) / 100.0;
-                    double value2 = Math.round((team2.getRate() * 2) * 100.0) / 100.0;
+                    double value1 = Math.round((team1.getRate() * 0.5) * 100.0) / 100.0;
+                    double value2 = Math.round((team2.getRate() * 0.5) * 100.0) / 100.0;
 
-                    this.writeToFile( 3, match, value1, value2);
+                    this.writeToFile(match, value1, value2);
 
                     profit1 += value1;
                     profit2 += value2;
@@ -123,7 +120,6 @@ public class Bet {
 
                     this.classicBet++;
 
-                    System.out.println(match.toString() + "  ----> Poda sa na jeden tim");
 
                     this.totalBet += 2;
 
