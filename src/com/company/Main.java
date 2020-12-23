@@ -15,11 +15,11 @@ public class Main {
         allSports.add("hadzana");
         allSports.add("americky-futbal");
 //
-//        MatchParser parser = new MatchParser(allSports);
+        MatchParser parser = new MatchParser(allSports);
 
-        Summary_Checker summary_checker = new Summary_Checker(allSports);
-
-        summary_checker.parse();
+//        Summary_Checker summary_checker = new Summary_Checker(allSports);
+//
+//        summary_checker.parse();
 
 //        ResultParser resultParser = new ResultParser(allSports);
 //
@@ -86,15 +86,15 @@ public class Main {
 //        System.out.println("pocet podanych: " + count);
 
 //
-//        parser.parsing();
+        parser.parsing();
 //
 //
-//        Hashtable<String, ArrayList<Match>> matches = parser.getMatchesTable();
-//
-//
-//        Bet bet = new Bet(matches);
-//
-//        bet.calculate();
+        Hashtable<String, ArrayList<Match>> matches = parser.getMatchesTable();
+
+
+        Bet bet = new Bet(matches);
+
+        bet.calculate();
 
 
 

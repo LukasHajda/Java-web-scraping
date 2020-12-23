@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -28,6 +29,7 @@ public class MatchParser {
 
 
     private final ArrayList<String> allLinks;
+    private final String date;
 
     private  WebDriver driver;
     private ArrayList<Match> matches = new ArrayList<>();
@@ -39,6 +41,10 @@ public class MatchParser {
 
     public MatchParser(ArrayList<String> allSports) {
         this.allLinks = allSports;
+
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+        this.date = dtf.format(LocalDateTime.now());
     }
 
     private void sortMatches() {
@@ -57,7 +63,7 @@ public class MatchParser {
             this.driver = new FirefoxDriver();
 
 
-            String link = "https://www.ifortuna.sk/stavkovanie/" + sport + "?selectDates=1&date=2020-12-22";
+            String link = "https://www.ifortuna.sk/stavkovanie/" + sport + "?date=" + this.date;
 
             this.driver.get(link);
 

@@ -30,7 +30,8 @@ public class ResultParser {
     private Hashtable<String, ArrayList<Result>> resultTable = new Hashtable<>();
     private BufferedWriter currentFile;
 
-    private  String date;
+    private  String currentDate;
+    private String previousDate;
 
     private ArrayList<String> allSports;
     private WebDriver driver;
@@ -43,16 +44,19 @@ public class ResultParser {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
         //this.date = dtf.format(LocalDateTime.now().minusDays(1));
-        this.date = dtf.format(LocalDateTime.now());
+        this.currentDate = dtf.format(LocalDateTime.now());
+        this.previousDate = dtf.format(LocalDateTime.now().minusDays(1));
 
-        System.out.println(this.date);
+        System.out.println(this.currentDate);
+
+        System.out.println(this.currentDate);
     }
 
     public void parsing() {
 
         for (String sport : this.allSports) {
 
-            String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + sport  + "/" + this.date;
+            String link = "https://www.ifortuna.sk/stavkovanie/vysledky/" + sport  + "/" + this.currentDate;
 
             this.driver.get(link);
 
@@ -155,7 +159,7 @@ public class ResultParser {
             System.out.println("Sport: " + sportType);
 
             try {
-                this.currentFile = new BufferedWriter(new FileWriter(new File("Result/" + sportType + "Res.txt"), false));
+                this.currentFile = new BufferedWriter(new FileWriter(new File("Result/" + sportType + "Res.txt"), true));
             }catch (Exception ex) {
                 System.out.println("Something went wrong with writing");
                 System.exit(1);

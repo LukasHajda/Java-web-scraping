@@ -1,8 +1,5 @@
 package com.company;
 
-import org.openqa.selenium.WebDriver;
-
-import java.text.DateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;

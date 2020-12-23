@@ -46,14 +46,14 @@ public class Summary_Checker {
                 // obycajny zapas no contest
                 if (parsed.length == 3) {
                     noContest++;
-                    //profit += 2.0;
+                    profit += 2.0;
                 }
 
                 if (parsed.length == 4) {
                     // double bet no contest
                     if (parsed[1].equals("B3")) {
                         noContest++;
-                        //profit += 4.0;
+                        profit += 1.0;
                     }
 
                     // obyc kontrola
@@ -97,14 +97,21 @@ public class Summary_Checker {
         }
 
 
-        System.out.println("Profit: " + profit);
-        System.out.println("draws: " + draw);
-        System.out.println("wins: " + win);
-        System.out.println("lost: " + lose);
-        System.out.println("No contest: " + noContest);
-        System.out.println("Double bet: " + doubleWin);
-        System.out.println("Classic: " + classicWin);
-        System.out.println("All: " + count);
+//        System.out.println("Profit: " + profit);
+//        System.out.println("draws: " + draw);
+//        System.out.println("wins: " + win);
+//        System.out.println("lost: " + lose);
+//        System.out.println("No contest: " + noContest);
+//        System.out.println("Double bet: " + doubleWin);
+//        System.out.println("Classic: " + classicWin);
+//        System.out.println("All: " + count);
+
+//        System.out.println("No contest double bet: " + noContestDoubleBet);
+//        System.out.println("No contest classic bet: " + noContestClassicBet);
+//        System.out.println("No contest double bet payback: " + (noContestDoubleBet));
+//        System.out.println("No contest classic bet payback: " + (noContestClassicBet * 2));
+//        System.out.println("*****************");
+//        System.out.println("All checked matches: " + );
 
 
     }

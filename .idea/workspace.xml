@@ -32,6 +32,9 @@
       <change beforePath="$PROJECT_DIR$/Result/hokejRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Result/hokejRes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/FinalCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FinalCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MatchParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MatchParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ResultParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ResultParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Summary_Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Summary_Checker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +131,8 @@
       <workItem from="1608535226959" duration="1292000" />
       <workItem from="1608580674126" duration="5175000" />
       <workItem from="1608635956420" duration="4967000" />
-      <workItem from="1608673180833" duration="4201000" />
+      <workItem from="1608673180833" duration="4552000" />
+      <workItem from="1608715837670" duration="6298000" />
     </task>
     <servers />
   </component>
@@ -164,26 +168,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602588097347" />
-    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1608678231175">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1608717505900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608678231175" />
-    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1608678231175">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608717505900" />
+    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1608717505900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608678231175" />
-    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1608678231175">
+    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608717505900" />
+    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1608717505900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608678231175" />
-    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1608678231175">
+    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608717505900" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1608717505900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608678231175" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608717505900" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604230854324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

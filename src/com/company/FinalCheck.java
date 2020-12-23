@@ -55,18 +55,26 @@ public class FinalCheck {
                         if (typeB.equals("B1")) {
                             if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
                                 betRewrite.write(bet + ";V1" + "\n");
+                            } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                betRewrite.write(bet + ";R" + "\n");
+                            } else if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
+                                betRewrite.write(bet + ";P" + "\n");
                             }
                         } else if (typeB.equals("B2")) {
                             if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
                                 betRewrite.write(bet + ";V2" + "\n");
+                            } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                                betRewrite.write(bet + ";P" + "\n");
+                            } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                betRewrite.write(bet + ";R" + "\n");
                             }
                         }else {
                             if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
                                 betRewrite.write(bet + ";V2" + "\n");
-                            }
-
-                            if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                            } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
                                 betRewrite.write(bet + ";V1" + "\n");
+                            } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                betRewrite.write(bet + ";R" + "\n");
                             }
                         }
                     }
