@@ -98,22 +98,33 @@ public class Summary_Checker {
             }
         }
 
-        System.out.println("No contest double bet: " + noContestDoubleBet);
-        System.out.println("No contest classic bet: " + noContestClassicBet);
-        System.out.println("No contest double bet payback: " + (noContestDoubleBet));
-        System.out.println("No contest classic bet payback: " + (noContestClassicBet * 2));
-        System.out.println("*****************");
-        System.out.println("All checked matches: " + count);
-        System.out.println("Win: " + win);
-        System.out.println("Lost: " + lose);
-        System.out.println("Draw: " + draw);
-        System.out.println("Double bet win: " + doubleWin);
-        System.out.println("classic bet win: " + classicWin);
-        System.out.println("Profit: " + profit);
 
+        BufferedWriter resultFile;
+
+        try {
+            resultFile = new BufferedWriter(new FileWriter(new File("result.txt"), false));
+
+            resultFile.write("No contest double bet: " + noContestDoubleBet + "\n");
+            resultFile.write("No contest classic bet: " + noContestClassicBet + "\n");
+            resultFile.write("No contest double bet payback: " + (noContestDoubleBet) + "\n");
+            resultFile.write("No contest classic bet payback: " + (noContestClassicBet * 2) + "\n");
+            resultFile.write("***********************\n");
+            resultFile.write("All checked matches: " + count + "\n");
+            resultFile.write("Win: " + win + "\n");
+            resultFile.write("Lost: " + lose + "\n");
+            resultFile.write("Draw: " + draw + "\n");
+            resultFile.write("Double bet win: " + doubleWin + "\n");
+            resultFile.write("classic bet win: " + classicWin + "\n");
+            resultFile.write("Profit: " + profit + "\n");
+
+
+            resultFile.close();
+
+        }catch (Exception ex) {
+            System.out.println("Something went wrong with writing");
+            System.exit(1);
+        }
 
     }
-
-
 
 }

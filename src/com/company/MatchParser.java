@@ -69,9 +69,11 @@ public class MatchParser {
             String url = this.driver.getCurrentUrl();
 
             System.out.println("current link: " + url);
+            System.out.println("drive: " + link);
 
-            if (url.equals(link)) {
+            if (!url.equals(link)) {
                 System.out.println("nezhoda");
+                this.driver.close();
                 continue;
             }
 
