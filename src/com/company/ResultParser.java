@@ -12,10 +12,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Hashtable;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ResultParser {
 
@@ -45,11 +42,9 @@ public class ResultParser {
 
         //this.date = dtf.format(LocalDateTime.now().minusDays(1));
         this.currentDate = dtf.format(LocalDateTime.now());
-        this.previousDate = dtf.format(LocalDateTime.now().minusDays(1));
 
         System.out.println(this.currentDate);
 
-        System.out.println(this.currentDate);
     }
 
     public void parsing() {
@@ -147,9 +142,7 @@ public class ResultParser {
 
     }
 
-
     public void writeToFile() {
-        System.out.println("kalkulujem");
 
         for (Map.Entry<String, ArrayList<Result>> entry : this.resultTable.entrySet()) {
 

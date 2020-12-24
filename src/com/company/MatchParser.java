@@ -10,8 +10,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class MatchParser {
 
@@ -44,7 +42,7 @@ public class MatchParser {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-        this.date = dtf.format(LocalDateTime.now());
+        this.date = dtf.format(LocalDateTime.now().plusDays(1));
     }
 
     private void sortMatches() {
@@ -65,7 +63,17 @@ public class MatchParser {
 
             String link = "https://www.ifortuna.sk/stavkovanie/" + sport + "?date=" + this.date;
 
+
             this.driver.get(link);
+
+            String url = this.driver.getCurrentUrl();
+
+            System.out.println("current link: " + url);
+
+            if (url.equals(link)) {
+                System.out.println("nezhoda");
+                continue;
+            }
 
             this.waitForLoad();
 
@@ -106,7 +114,6 @@ public class MatchParser {
                 ArrayList<WebElement> arrTr = new ArrayList<>(allTrTags);
 
 
-                System.out.println(arrTr.size());
                 for (WebElement tr : arrTr) {
                     List<WebElement> allTd = tr.findElements(findAllTdTags);
 
@@ -145,18 +152,12 @@ public class MatchParser {
             this.driver.close();
         }
 
-
         this.sortMatches();
 
-//        this.printAllMatches();
-
         this.sortHashTable();
-
-//        this.printHashTable();
     }
 
     private void sortHashTable() {
-        //this.matches.sort(Comparator.comparing(Match::getDate));
         for(Map.Entry<String, ArrayList<Match>> entry : this.matchesTable.entrySet()) {
             entry.getValue().sort(Comparator.comparing(Match::getDate));
         }

@@ -26,7 +26,7 @@ public class Match{
 
     @Override
     public String toString() {
-        return this.id + ";" + this.team1.getName() + " (" + this.team1.getRate() + ") VS " + this.team2.getName() + " (" + this.team2.getRate() + ");" + this.date.toString() + ";" + this.sportType;
+        return this.team1.getName() + " (" + this.team1.getRate() + ") VS " + this.team2.getName() + " (" + this.team2.getRate() + ")";
     }
 
     public int getId() {

@@ -21,21 +21,6 @@ public class Bet {
     public Bet(Hashtable<String, ArrayList<Match>> matches) {
         this.matches = matches;
 
-//        for (Map.Entry<String, ArrayList<Match>> entry : matches.entrySet()) {
-//            int count = 0;
-//            //System.out.println("SPORT: " + entry.getKey());
-//
-//            count += entry.getValue().size();
-//
-//            for(Match match : entry.getValue()) {
-//                System.out.println(match.toString());
-//            }
-//
-//            System.out.println("Korekcia " + entry.getKey() + " Pocet: " + count);
-//
-//            System.out.println("***********************************************************");
-//        }
-
         System.out.println("VELKOST: " + this.matches.size());
     }
 
@@ -43,7 +28,7 @@ public class Bet {
     private void writeToFile(int betType, Match match, double value) {
 
         try {
-            this.currentFile.write(match.getId() + ";B" + betType + ";" + value + "\n");
+            this.currentFile.write(match.toString() + ";" + match.getId() + ";B" + betType + ";" + value + "\n");
         } catch (IOException e) {
             System.out.println("Something went wrong with writing");
             System.exit(1);
@@ -54,7 +39,7 @@ public class Bet {
     private void writeToFile(Match match, double value1, double value2) {
 
         try {
-            this.currentFile.write(match.getId() + ";B" + 3 + ";" + value1 + ";" + value2 + "\n");
+            this.currentFile.write(match.toString() + ";" + match.getId() + ";B" + 3 + ";" + value1 + ";" + value2 + "\n");
         } catch (IOException e) {
             System.out.println("Something went wrong with writing");
             System.exit(1);
@@ -64,8 +49,6 @@ public class Bet {
 
 
     public void calculate() {
-
-        System.out.println("kalkulujem");
 
         double profit1 = 0;
         double profit2 = 0;

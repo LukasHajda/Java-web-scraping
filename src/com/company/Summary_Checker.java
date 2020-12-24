@@ -7,6 +7,7 @@ public class Summary_Checker {
 
 
     private ArrayList<String> sports;
+
     public Summary_Checker(ArrayList<String> sports) {
         this.sports = sports;
     }
@@ -20,8 +21,9 @@ public class Summary_Checker {
         int classicWin = 0;
         int lose = 0;
         int count = 0;
-        int noContest = 0;
         double profit = 0.0;
+        int noContestDoubleBet = 0;
+        int noContestClassicBet = 0;
 
         for(String sport : this.sports) {
 
@@ -45,14 +47,14 @@ public class Summary_Checker {
 
                 // obycajny zapas no contest
                 if (parsed.length == 3) {
-                    noContest++;
+                    noContestClassicBet++;
                     profit += 2.0;
                 }
 
                 if (parsed.length == 4) {
                     // double bet no contest
                     if (parsed[1].equals("B3")) {
-                        noContest++;
+                        noContestDoubleBet++;
                         profit += 1.0;
                     }
 
@@ -96,22 +98,18 @@ public class Summary_Checker {
             }
         }
 
-
-//        System.out.println("Profit: " + profit);
-//        System.out.println("draws: " + draw);
-//        System.out.println("wins: " + win);
-//        System.out.println("lost: " + lose);
-//        System.out.println("No contest: " + noContest);
-//        System.out.println("Double bet: " + doubleWin);
-//        System.out.println("Classic: " + classicWin);
-//        System.out.println("All: " + count);
-
-//        System.out.println("No contest double bet: " + noContestDoubleBet);
-//        System.out.println("No contest classic bet: " + noContestClassicBet);
-//        System.out.println("No contest double bet payback: " + (noContestDoubleBet));
-//        System.out.println("No contest classic bet payback: " + (noContestClassicBet * 2));
-//        System.out.println("*****************");
-//        System.out.println("All checked matches: " + );
+        System.out.println("No contest double bet: " + noContestDoubleBet);
+        System.out.println("No contest classic bet: " + noContestClassicBet);
+        System.out.println("No contest double bet payback: " + (noContestDoubleBet));
+        System.out.println("No contest classic bet payback: " + (noContestClassicBet * 2));
+        System.out.println("*****************");
+        System.out.println("All checked matches: " + count);
+        System.out.println("Win: " + win);
+        System.out.println("Lost: " + lose);
+        System.out.println("Draw: " + draw);
+        System.out.println("Double bet win: " + doubleWin);
+        System.out.println("classic bet win: " + classicWin);
+        System.out.println("Profit: " + profit);
 
 
     }
