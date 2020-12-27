@@ -27,6 +27,7 @@ public class FinalCheck {
         try {
             betRewrite = new BufferedWriter(new FileWriter(new File("Bets/" + sport + "Bet.txt"), false));
         } catch (IOException e) {
+            System.out.println("Something went wrong");
             e.printStackTrace();
         }
 
@@ -37,8 +38,8 @@ public class FinalCheck {
         for (String bet : this.betLines) {
 
             String[] parsedBet = bet.split(";");
-            String idB = parsedBet[0];
-            String typeB = parsedBet[1];
+            String idB = parsedBet[1];
+            String typeB = parsedBet[2];
 
             for (String result : this.resultLines) {
 
@@ -51,31 +52,55 @@ public class FinalCheck {
                     // Now create matcher object.
                     Matcher m = r.matcher(parsedRes[1]);
 
+                    //TODO: Remiza dokonci
+
                     if (m.find( )) {
-                        if (typeB.equals("B1")) {
-                            if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
-                                betRewrite.write(bet + ";V1" + "\n");
-                            } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
-                                betRewrite.write(bet + ";R" + "\n");
-                            } else if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
-                                betRewrite.write(bet + ";P" + "\n");
-                            }
-                        } else if (typeB.equals("B2")) {
-                            if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
-                                betRewrite.write(bet + ";V2" + "\n");
-                            } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
-                                betRewrite.write(bet + ";P" + "\n");
-                            } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
-                                betRewrite.write(bet + ";R" + "\n");
-                            }
-                        }else {
-                            if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
-                                betRewrite.write(bet + ";V2" + "\n");
-                            } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
-                                betRewrite.write(bet + ";V1" + "\n");
-                            } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
-                                betRewrite.write(bet + ";R" + "\n");
-                            }
+                        switch (typeB) {
+                            case "B1":
+                                if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                                    betRewrite.write(bet + ";V1" + "\n");
+                                } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                    betRewrite.write(bet + ";R" + "\n");
+                                } else if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
+                                    betRewrite.write(bet + ";P" + "\n");
+                                }
+                                break;
+                            case "B2":
+                                if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
+                                    betRewrite.write(bet + ";V2" + "\n");
+                                } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                                    betRewrite.write(bet + ";P" + "\n");
+                                } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                    betRewrite.write(bet + ";R" + "\n");
+                                }
+                                break;
+                            case "B3":
+                                if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
+                                    betRewrite.write(bet + ";V2" + "\n");
+                                } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                                    betRewrite.write(bet + ";V1" + "\n");
+                                } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                    betRewrite.write(bet + ";R" + "\n");
+                                }
+                                break;
+                            case "B4":
+                                if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                                    betRewrite.write(bet + ";V1" + "\n");
+                                } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                    betRewrite.write(bet + ";VR" + "\n");
+                                } else if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
+                                    betRewrite.write(bet + ";P" + "\n");
+                                }
+                                break;
+                            case "B5":
+                                if (m.group(1).equals("2") || m.group(2).equals("2") || m.group(3).equals("2")) {
+                                    betRewrite.write(bet + ";V2" + "\n");
+                                } else if (m.group(1).equals("0") || m.group(2).equals("0") || m.group(3).equals("0")) {
+                                    betRewrite.write(bet + ";VR" + "\n");
+                                } else if (m.group(1).equals("1") || m.group(2).equals("1") || m.group(3).equals("1")) {
+                                    betRewrite.write(bet + ";P" + "\n");
+                                }
+                                break;
                         }
                     }
                 }

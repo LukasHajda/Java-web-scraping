@@ -21,9 +21,24 @@
   <component name="ChangeListManager">
     <list default="true" id="443ff3d3-139d-41a1-9be3-947b24eb6cc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bets/americky-futbalBet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bets/americky-futbalBet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bets/basketbalBet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bets/basketbalBet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bets/futbalBet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bets/futbalBet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bets/hadzanaBet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bets/hadzanaBet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bets/hokejBet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bets/hokejBet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/americky-futbalRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Result/americky-futbalRes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/basketbalRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Result/basketbalRes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/futbalRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Result/futbalRes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/hadzanaRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Result/hadzanaRes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result/hokejRes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Result/hokejRes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chomsky_Bot/com/company/FinalCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chomsky_Bot/com/company/FinalCheck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chomsky_Bot/com/company/MatchParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chomsky_Bot/com/company/MatchParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Bet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FinalCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FinalCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Match.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MatchParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MatchParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ResultParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ResultParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Summary_Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Summary_Checker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +138,13 @@
       <workItem from="1608715837670" duration="7007000" />
       <workItem from="1608735813059" duration="596000" />
       <workItem from="1608756638049" duration="3164000" />
-      <workItem from="1608804200701" duration="9284000" />
+      <workItem from="1608804200701" duration="14458000" />
+      <workItem from="1608823133461" duration="3430000" />
+      <workItem from="1608925319185" duration="4072000" />
+      <workItem from="1608988168633" duration="2526000" />
+      <workItem from="1609009112889" duration="6079000" />
+      <workItem from="1609062450809" duration="6774000" />
+      <workItem from="1609100302751" duration="3595000" />
     </task>
     <servers />
   </component>
@@ -143,10 +164,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" width="594" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1604262743361">
+    <state x="765" y="236" width="594" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1609016742409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" width="594" height="587" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604262743361" />
+    <state x="765" y="236" width="594" height="587" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609016742409" />
     <state x="605" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604150427860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,26 +180,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602588097347" />
-    <state width="1877" height="457" key="GridCell.Tab.0.bottom" timestamp="1608813868725">
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1609103773145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="457" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608813868725" />
-    <state width="1877" height="457" key="GridCell.Tab.0.center" timestamp="1608813868725">
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609103773145" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1609103773145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="457" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608813868725" />
-    <state width="1877" height="457" key="GridCell.Tab.0.left" timestamp="1608813868725">
+    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609103773145" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1609103773145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="457" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608813868725" />
-    <state width="1877" height="457" key="GridCell.Tab.0.right" timestamp="1608813868725">
+    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609103773145" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1609103773145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="661" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1601795256691" />
-    <state width="1877" height="457" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608813868725" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609103773145" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604230854324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,6 +220,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608471040930" />
+    <state x="690" y="295" key="extract.method.dialog" timestamp="1609019708529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="295" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609019708529" />
     <state x="342" y="140" key="new project wizard" timestamp="1605703633497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

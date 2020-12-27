@@ -25,10 +25,10 @@ public class Bet {
     }
 
 
-    private void writeToFile(int betType, Match match, double value) {
+    private void writeToFile(int betType, Match match, double value1, double value2) {
 
         try {
-            this.currentFile.write(match.toString() + ";" + match.getId() + ";B" + betType + ";" + value + "\n");
+            this.currentFile.write(match.toString() + ";" + match.getId() + ";B" + betType + ";" + value1 + ";" + value2 + "\n");
         } catch (IOException e) {
             System.out.println("Something went wrong with writing");
             System.exit(1);
@@ -36,10 +36,10 @@ public class Bet {
 
     }
 
-    private void writeToFile(Match match, double value1, double value2) {
+    private void writeToFile(int betType, Match match, double value1) {
 
         try {
-            this.currentFile.write(match.toString() + ";" + match.getId() + ";B" + 3 + ";" + value1 + ";" + value2 + "\n");
+            this.currentFile.write(match.toString() + ";" + match.getId() + ";B" + betType + ";" + value1 + "\n");
         } catch (IOException e) {
             System.out.println("Something went wrong with writing");
             System.exit(1);
@@ -64,73 +64,98 @@ public class Bet {
                 System.exit(1);
             }
 
+
+
             for (Match match : entry.getValue()) {
 
 
                 Team team1 = match.getTeam1();
                 Team team2 = match.getTeam2();
+                double drawRate = match.getDrawRate();
 
 
-                System.out.println(team1.getRate() + " || " + team2.getRate());
-
-
-
-                if (team1.getRate() >= 2.00 && team2.getRate() >= 2.00) {
-                    this.totalBet += 1;
-
-                    this.doubleBet++;
-
-                    match.setBet(3);
-
-                    double value1 = Math.round((team1.getRate() * 0.5) * 100.0) / 100.0;
-                    double value2 = Math.round((team2.getRate() * 0.5) * 100.0) / 100.0;
-
-                    this.writeToFile(match, value1, value2);
-
-                    profit1 += value1;
-                    profit2 += value2;
-
-                }else {
-
-                    double diff = team1.getRate() - team2.getRate();
-
-                    // use double math abs
-                    diff = Math.abs(diff);
-
-                    System.out.println("diff: " + diff);
-
-                    if (diff < 2.00) continue;
-
+                if (team1.getRate() < 2) {
+                    this.totalBet += 2;
                     this.classicBet++;
 
+                    double value1 = Math.round((team1.getRate() * 2.0) * 100.0) / 100.0;
 
+                    profit1 += value1;
+
+                    this.writeToFile( 1, match, value1);
+
+                } else if (team2.getRate() < 2) {
                     this.totalBet += 2;
+                    this.classicBet++;
+
+                    double value2 = Math.round((team2.getRate() * 2.0) * 100.0) / 100.0;
+
+                    profit2 += value2;
+
+                    this.writeToFile( 2, match, value2);
+
+                } else {
+                    double min1;
+                    double min2;
+                    this.doubleBet++;
+                    this.totalBet += 1;
+
+                    if (team1.getRate() < team2.getRate()) {
+                        min1 = team1.getRate();
+
+                        if (team2.getRate() < drawRate) {
+
+                            min2 = team2.getRate();
+
+                            double value1 = Math.round((min1 * 0.5) * 100.0) / 100.0;
+                            double value2 = Math.round((min2 * 0.5) * 100.0) / 100.0;
+
+                            profit1 += value1;
+                            profit2 += value2;
 
 
-                    if (team1.getRate() > team2.getRate()) {
+                            this.writeToFile(3, match, value1, value2);
 
-                        match.setBet(2);
+                        } else {
 
-                        double v2 = Math.round((team2.getRate() * 2) * 100.0) / 100.0;
+                            min2 = drawRate;
 
-                        this.writeToFile( 2, match, v2);
+                            double value1 = Math.round((min1 * 0.5) * 100.0) / 100.0;
+                            double value2 = Math.round((min2 * 0.5) * 100.0) / 100.0;
 
-                        profit1 += v2;
-                        profit2 += v2;
+                            profit1 += value1;
+                            profit2 += value2;
+
+                            this.writeToFile(4, match, value1, value2);
+                        }
+
                     } else {
+                        min1 = team2.getRate();
 
-                        match.setBet(1);
+                        if (team1.getRate() < drawRate) {
+                            min2 = team1.getRate();
 
-                        double v1 = Math.round((team1.getRate() * 2) * 100.0) / 100.0;
+                            double value1 = Math.round((min1 * 0.5) * 100.0) / 100.0;
+                            double value2 = Math.round((min2 * 0.5) * 100.0) / 100.0;
 
-                        this.writeToFile( 1, match, v1);
+                            profit1 += value1;
+                            profit2 += value2;
 
-                        profit1 += v1;
-                        profit2 += v1;
+                            this.writeToFile(3, match, value1, value2);
+                        } else {
+
+                            min2 = drawRate;
+
+                            double value1 = Math.round((min1 * 0.5) * 100.0) / 100.0;
+                            double value2 = Math.round((min2 * 0.5) * 100.0) / 100.0;
+
+                            profit1 += value1;
+                            profit2 += value2;
+
+                            this.writeToFile(5, match, value1, value2);
+                        }
                     }
                 }
-
-
             }
 
             try {
@@ -140,6 +165,9 @@ public class Bet {
                 System.exit(1);
             }
         }
+
+        System.out.println("PR1: " + profit1);
+        System.out.println("PR2: " + profit2);
 
         try {
             this.currentFile = new BufferedWriter(new FileWriter(new File("summary.txt"), false));

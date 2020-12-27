@@ -129,6 +129,10 @@ public class MatchParser {
                     String[] teams = firstTd.findElement(findSpanTag_tagName).getText().split("-");
 
                     double firstTeamRate = Double.parseDouble(arrTd.get(1).getText());
+
+                    // draw
+                    double drawRate = Double.parseDouble(arrTd.get(2).getText());
+
                     double secondTeamsRate = Double.parseDouble(arrTd.get(3).getText());
 
                     Team team1 = new Team(teams[0], firstTeamRate);
@@ -140,7 +144,7 @@ public class MatchParser {
 
                     int infoNumber = Integer.parseInt(spanInfoNumber);
 
-                    Match match = new Match(team1, team2, date, sport, infoNumber);
+                    Match match = new Match(team1, team2, date, sport, infoNumber, drawRate);
 
                     this.addToHashTableMatches(match);
 

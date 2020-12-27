@@ -1,4 +1,99 @@
-Jaroslavl  (1.48) VS  Soči (5.4);2851;B1;2.96
-Švajčiarsko  (1.52) VS  Slovensko (4.65);2004;B1;3.04
-Nemecko  (18.0) VS  Fínsko (1.08);2010;B2;2.16
-Rusko  (2.44) VS  USA (2.45);2013;B3;1.22;1.23
+Slovensko  (30.0) VS  Kanada (1.01) Remiza: 21.0;23789;B2;2.02
+Česko  (17.5) VS  Rusko (1.08) Remiza: 14.5;23790;B2;2.16
+Kanada  (2.05) VS  Nemecko (2.33) Remiza: 5.15;2159;B3;1.02;1.17
+Švajčiarsko  (2.28) VS  USA (2.12) Remiza: 5.0;2160;B3;1.06;1.14
+MGN Vancouver (Magnitude)  (2.15) VS  4M3 Detroit (Kolhoz) (2.24) Remiza: 5.0;2027;B3;1.08;1.12
+PGM NY Rangers (Punisher Games)  (3.75) VS  SWT Washington (Swooooi) (1.55) Remiza: 5.0;2031;B2;3.1
+Sachalinské Akuly  (3.8) VS  Krídla Sovietov (1.67) Remiza: 4.25;25000;B2;3.34
+MGN Vancouver (Magnitude)  (1.55) VS  ZAV Pittsburgh (Zava Penguins) (3.55) Remiza: 5.4;2032;B1;3.1
+Rusko  (2.0) VS  Fínsko (2.39) Remiza: 5.2;2227;B3;1.0;1.2
+4M3 Detroit (Kolhoz)  (3.3) VS  SWT Washington (Swooooi) (1.65) Remiza: 5.0;2039;B2;3.3
+ZAV Pittsburgh (Zava Penguins)  (2.2) VS  PGM NY Rangers (Punisher Games) (2.3) Remiza: 4.5;2042;B3;1.1;1.15
+Švédsko  (2.12) VS  Česko (2.24) Remiza: 5.2;2276;B3;1.06;1.12
+Taifun  (1.4) VS  Amurské Tigre (5.3) Remiza: 5.1;25004;B1;2.8
+SWT Washington (Swooooi)  (1.45) VS  MGN Vancouver (Magnitude) (4.3) Remiza: 5.2;2118;B1;2.9
+Bars Kazan  (1.34) VS  Ural Orsk (6.2) Remiza: 5.2;23785;B1;2.68
+Almaz Cherepovets  (1.41) VS  Atlanty (5.1) Remiza: 5.15;25007;B1;2.82
+ZAV Pittsburgh (Zava Penguins)  (1.9) VS  4M3 Detroit (Kolhoz) (2.6) Remiza: 4.85;2119;B1;3.8
+PGM NY Rangers (Punisher Games)  (2.4) VS  MGN Vancouver (Magnitude) (2.05) Remiza: 4.85;2151;B3;1.02;1.2
+Omské Jastraby  (1.85) VS  Avto Jekaterinburg (3.2) Remiza: 4.1;25013;B1;3.7
+4M3 Detroit (Kolhoz)  (2.4) VS  PGM NY Rangers (Punisher Games) (2.05) Remiza: 4.7;2154;B3;1.02;1.2
+Sibirskí Snajperi  (3.05) VS  Tolpar Ufa (2.0) Remiza: 3.7;25018;B3;1.0;1.53
+SWT Washington (Swooooi)  (1.35) VS  ZAV Pittsburgh (Zava Penguins) (5.3) Remiza: 5.5;2157;B1;2.7
+V.Británia  (2.18) VS  Nórsko (2.21) Remiza: 5.0;2277;B3;1.09;1.11
+Francúzsko  (2.18) VS  Bielorusko (2.21) Remiza: 5.0;2325;B3;1.09;1.11
+Barys Nur Sultan  (2.18) VS  Novosibirsk (2.92) Remiza: 3.8;2797;B3;1.09;1.46
+Kurgan  (2.89) VS  Novokuznetsk (2.04) Remiza: 3.8;23784;B3;1.02;1.45
+Jekaterinburg  (1.45) VS  Chabarovsk (5.7) Remiza: 5.0;2801;B1;2.9
+Omsk  (1.95) VS  Traktor Čeljabinsk (3.3) Remiza: 4.0;2824;B1;3.9
+Ufa  (2.37) VS  Magnitogorsk (2.57) Remiza: 3.95;2850;B3;1.19;1.29
+Ml.Boleslav  (1.97) VS  Kom.Brno (3.25) Remiza: 4.3;2718;B1;3.94
+Chelmet Cheljabinsk  (2.53) VS  Gornyak Uchaly (2.31) Remiza: 3.7;23783;B3;1.16;1.26
+Sarmaty Orenburg  (2.25) VS  Reaktor Nižnekamsk (2.47) Remiza: 4.0;25019;B3;1.13;1.24
+Švajčiarsko  (2.28) VS  Kanada (2.1) Remiza: 5.1;2327;B3;1.05;1.14
+Nitra  (1.7) VS  Nové Zámky (3.7) Remiza: 4.6;2876;B1;3.4
+USA  (2.1) VS  Nemecko (2.28) Remiza: 5.1;2851;B3;1.05;1.14
+L.Mikuláš  (3.1) VS  Detva (1.9) Remiza: 4.4;20415;B2;3.8
+N.Novgorod  (1.6) VS  Dinamo Riga (4.4) Remiza: 4.75;2823;B1;3.2
+Čerepovec  (2.0) VS  Nižnekamsk (3.15) Remiza: 4.1;2800;B3;1.0;1.58
+Sparta  (1.34) VS  Vítkovice (7.5) Remiza: 6.0;2743;B1;2.68
+Novopolotsk  (1.41) VS  Pinskiye Jastreby (5.5) Remiza: 4.8;2891;B1;2.82
+Baranavichy  (4.0) VS  Lida (1.61) Remiza: 4.4;2890;B2;3.22
+Jokerit  (2.3) VS  Jaroslavl (2.68) Remiza: 3.9;2822;B3;1.15;1.34
+Spartak Moskva  (2.75) VS  Dinamo Moskva (2.2) Remiza: 4.05;2840;B3;1.1;1.38
+Soči  (6.1) VS  SKA Petrohrad (1.4) Remiza: 5.4;2826;B2;2.8
+Litvínov  (2.74) VS  Plzeň (2.3) Remiza: 4.05;2717;B3;1.15;1.37
+Motor Č.Budějovice  (3.35) VS  K.Vary (1.92) Remiza: 4.4;2720;B2;3.84
+Vaasan Sport  (1.97) VS  Assat Pori (3.1) Remiza: 4.0;23549;B1;3.94
+Hameenlinna  (2.18) VS  SaiPa (2.69) Remiza: 4.0;23550;B3;1.09;1.35
+Jukurit  (4.85) VS  Lukko Rauma (1.4) Remiza: 6.2;23559;B2;2.8
+Poprad  (1.6) VS  Košice (4.2) Remiza: 4.7;2893;B1;3.2
+Zvolen  (1.65) VS  B.Bystrica (3.9) Remiza: 4.8;2908;B1;3.3
+DVTK Jegesmedvék  (3.1) VS  Michalovce (1.9) Remiza: 4.4;2855;B2;3.8
+Pardubice  (1.71) VS  Zlín (4.15) Remiza: 4.5;2737;B1;3.42
+Hr.Králové  (2.35) VS  Liberec (2.61) Remiza: 4.2;2716;B3;1.18;1.31
+Olomouc  (4.05) VS  Třinec (1.7) Remiza: 4.7;2746;B2;3.4
+Stavanger  (1.1) VS  Narvik (13.0) Remiza: 10.0;2796;B1;2.2
+Slovan  (1.63) VS  Trenčín (4.1) Remiza: 4.6;2903;B1;3.26
+Eisbären  (1.5) VS  Krefeld (4.8) Remiza: 5.0;23618;B1;3.0
+Manglerud  (1.28) VS  Grüner (6.1) Remiza: 7.0;23623;B1;2.56
+Frisk Asker  (2.25) VS  Val.Oslo (2.53) Remiza: 4.05;23620;B3;1.13;1.26
+Lillehammer  (2.38) VS  Storhamar (2.38) Remiza: 4.05;23622;B3;1.19;1.19
+Stjernen  (2.2) VS  Sarpsborg (2.57) Remiza: 4.1;23624;B3;1.1;1.29
+Lulea  (1.62) VS  Leksand (3.8) Remiza: 5.0;23628;B1;3.24
+HV 71  (1.77) VS  Oskarshamn (3.2) Remiza: 4.9;23626;B1;3.54
+Växjö  (2.02) VS  Färjestad (2.85) Remiza: 4.25;23654;B3;1.01;1.43
+Rögle  (2.05) VS  Frölunda (2.84) Remiza: 4.15;23629;B3;1.02;1.42
+Brynäs  (2.2) VS  Malmö (2.63) Remiza: 4.05;23625;B3;1.1;1.32
+Skelleftea  (2.22) VS  Örebro (2.44) Remiza: 4.0;23648;B3;1.11;1.22
+Linköping  (2.32) VS  Djurgarden (2.48) Remiza: 4.05;23627;B3;1.16;1.24
+Klagenfurt II  (1.27) VS  Steel Linz (6.1) Remiza: 6.3;25179;B1;2.54
+Lindlovens  (1.23) VS  Grums (6.71) Remiza: 7.0;23729;B1;2.46
+Vimmerby  (1.28) VS  Hanhals (6.48) Remiza: 5.9;23728;B1;2.56
+Hanvikens  (1.28) VS  Hammarby (6.37) Remiza: 6.0;23730;B1;2.56
+Kallinge Ronneby  (1.87) VS  Morrums GoIS (2.94) Remiza: 4.35;23727;B1;3.74
+Halmstad  (2.36) VS  Nybro (2.2) Remiza: 4.4;23726;B3;1.1;1.18
+Vienna  (1.6) VS  Bratislava Capitals (3.95) Remiza: 4.8;11954;B1;3.2
+Salzburg  (1.7) VS  Dornbirn (3.45) Remiza: 4.8;11921;B1;3.4
+Linz  (2.57) VS  Fehérvár AV19 (2.1) Remiza: 4.5;11904;B3;1.05;1.29
+Innsbruck  (3.05) VS  Bolzano (1.85) Remiza: 4.6;11865;B2;3.7
+Villach  (2.4) VS  Klagenfurt (2.28) Remiza: 4.3;11958;B3;1.14;1.2
+Kitzbühel  (2.2) VS  Feldkirch (2.34) Remiza: 4.35;23830;B3;1.1;1.17
+Fassa  (5.3) VS  Olimpija Ljubljana (1.33) Remiza: 5.85;23822;B2;2.66
+Tölzer Löwen  (1.47) VS  Bayreuth (4.45) Remiza: 5.5;23707;B1;2.94
+Frankfurt Lowen  (1.5) VS  Dresdner Eislowen (4.4) Remiza: 5.2;23701;B1;3.0
+Kaufbeuren  (1.88) VS  Heilbronn (2.74) Remiza: 5.25;23704;B1;3.76
+Freiburg  (1.92) VS  Bietigheim (2.95) Remiza: 4.4;23702;B1;3.84
+Lausitzer Füchse  (1.95) VS  Landshut (2.73) Remiza: 4.8;23705;B1;3.9
+Bad Nauheim  (2.61) VS  Kassel (2.15) Remiza: 4.2;23698;B3;1.08;1.31
+Zug  (1.28) VS  SCL Tigers (6.1) Remiza: 7.0;23683;B1;2.56
+Davos  (1.76) VS  Ambri (3.45) Remiza: 4.4;23655;B1;3.52
+Rapperswil  (2.6) VS  Lugano (2.17) Remiza: 4.15;2002;B3;1.09;1.3
+Vipiteno  (2.76) VS  Ritten Renon (1.9) Remiza: 4.5;23832;B2;3.8
+Crimmitsch.  (2.87) VS  Ravensburg (2.0) Remiza: 4.2;23700;B3;1.0;1.44
+GKS Tychy  (1.7) VS  U.Oswiecim (3.75) Remiza: 4.45;2164;B1;3.4
+Cortina  (2.25) VS  Asiago (2.29) Remiza: 4.35;23824;B3;1.13;1.15
+München  (1.42) VS  Nürnberg (5.3) Remiza: 5.5;23619;B1;2.84
+Gherdeina  (3.7) VS  Pustertal (1.58) Remiza: 4.85;23827;B2;3.16
+Rakúsko  (35.0) VS  Švédsko (1.0) Remiza: 35.0;2675;B2;2.0
+Slovensko  (2.69) VS  Nemecko (2.1) Remiza: 4.4;2721;B3;1.05;1.35

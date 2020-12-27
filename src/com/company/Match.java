@@ -10,23 +10,29 @@ public class Match{
     private LocalDateTime date;
     private String sportType;
     private int id;
+    private double drawRate;
     // 1 -> bet for first team
     // 2 -> bet for second team
     // 3 -> bet for both team
     private int bet;
 
-    public Match(Team team1, Team team2, LocalDateTime date, String sportType, int id) {
+    public Match(Team team1, Team team2, LocalDateTime date, String sportType, int id, double drawRate) {
         this.team1 = team1;
         this.team2 = team2;
         this.date = date;
         this.id = id;
         this.sportType = sportType;
+        this.drawRate = drawRate;
 
     }
 
     @Override
     public String toString() {
-        return this.team1.getName() + " (" + this.team1.getRate() + ") VS " + this.team2.getName() + " (" + this.team2.getRate() + ")";
+        return this.team1.getName() + " (" + this.team1.getRate() + ") VS " + this.team2.getName() + " (" + this.team2.getRate() + ") Remiza: " + this.drawRate;
+    }
+
+    public double getDrawRate() {
+        return this.drawRate;
     }
 
     public int getId() {
@@ -57,3 +63,4 @@ public class Match{
         return date;
     }
 }
+

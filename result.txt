@@ -1,0 +1,12 @@
+No contest double bet: 0
+No contest classic bet: 0
+No contest double bet payback: 0
+No contest classic bet payback: 0
+***********************
+All checked matches: 27
+Win: 21
+Lost: 3
+Draw: 3
+Double bet win: 9
+classic bet win: 12
+Profit: -0.21999999999999953

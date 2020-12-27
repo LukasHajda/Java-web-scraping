@@ -1,19 +1,62 @@
-Aswan  (2.74) VS  El Gounah (2.65);29152;B3;1.37;1.33
-Hap.Rishon LeZion  (1.35) VS  Hap.Kfar Shalem (8.0);20649;B1;2.7
-Hap.Ramat HaSharon  (1.65) VS  Kafr Qasem (5.0);20648;B1;3.3
-Hap.Afula  (2.0) VS  Hap.Petah Tikva (3.5);20644;B3;1.0;1.75
-Hap.Umm Al Fahm  (2.25) VS  Hap.Raanana (3.05);20667;B3;1.13;1.53
-Beitar Tel Aviv Ramla  (2.45) VS  Hap.Nof HaGalil (2.65);20626;B3;1.23;1.33
-Mac.Ahi Nazareth  (2.95) VS  Nes Ziona (2.25);20757;B3;1.48;1.13
-Al Jazeera Amman  (1.6) VS  Al Salt (4.9);29190;B1;3.2
-Al Wahda  (1.35) VS  Al Fujairah (6.8);29275;B1;2.7
-Hatta Dubai  (8.5) VS  Al Sharjah (1.25);29276;B2;2.5
-Ghazl Al Mehalla  (3.0) VS  El Geish (2.3);29161;B3;1.5;1.15
-Altay Izmir  (1.75) VS  Umraniye (4.0);29495;B1;3.5
-Moghreb Tetouan  (1.9) VS  Youssoufia Berrechid (4.0);29249;B1;3.8
-Ismaily  (2.02) VS  National Bank Egypt (3.7);29162;B3;1.01;1.85
-FUS Rabat  (1.66) VS  Difaa El Jadidi (4.85);29246;B1;3.32
-Always Ready  (1.2) VS  Atl.Palmaflor Vinto (8.8);9756;B1;2.4
-Club Aurora  (2.0) VS  San José Oruro (3.1);9805;B3;1.0;1.55
-Blooming SC  (1.62) VS  Guabirá (4.3);9784;B1;3.24
-Real Potosi  (5.7) VS  Bolivar (1.44);9809;B2;2.88
+Santa Fe  (1.9) VS  América de Cali (4.6) Remiza: 2.92;899;B1;3.8
+Gremio RS  (1.88) VS  Atl.Goianiense GO (4.55) Remiza: 3.25;25259;B1;3.76
+Guairena  (4.1) VS  Guarani A. (1.88) Remiza: 3.1;20343;B2;3.76
+Estud.Rio Cuarto  (2.25) VS  Ferro Carril Oeste (3.2) Remiza: 3.05;29370;B4;1.13;1.53
+Atl.Mitre  (2.55) VS  Alvarado (3.0) Remiza: 2.75;29366;B4;1.27;1.38
+San Martin Tucuman  (1.86) VS  Villa Dalmine (4.25) Remiza: 3.18;29375;B1;3.72
+CD Santa Cruz  (3.35) VS  Nublense (1.93) Remiza: 3.4;11172;B2;3.86
+River Plate  (1.26) VS  Sarandí (11.0) Remiza: 4.95;23597;B1;2.52
+Sebeta City  (2.7) VS  St. George (2.35) Remiza: 3.05;25390;B3;1.18;1.35
+Western Utd.  (2.05) VS  Adelaide Utd. (3.35) Remiza: 3.6;21955;B3;1.02;1.68
+Konyaspor  (2.15) VS  Caykur Rizespor (3.4) Remiza: 3.15;946;B4;1.08;1.58
+Genclerbirligi  (2.35) VS  Kayserispor (3.0) Remiza: 3.15;828;B3;1.18;1.5
+Dep.Iquique  (3.25) VS  Palestino (2.12) Remiza: 3.4;29178;B3;1.06;1.63
+Bengaluru  (1.8) VS  Jamshedpur (4.3) Remiza: 3.4;29508;B1;3.6
+AS Armee  (2.5) VS  Police (Mauritania) (2.5) Remiza: 3.2;25393;B3;1.25;1.25
+Muscat  (2.0) VS  Oman Club (3.3) Remiza: 3.25;25381;B4;1.0;1.63
+Bahla  (2.38) VS  Al Nasr (2.64) Remiza: 3.2;25380;B3;1.19;1.32
+Cr.Palace  (3.95) VS  Leicester (2.03) Remiza: 3.58;23374;B5;1.01;1.79
+Karmiotissa  (3.5) VS  APOEL Nicosia (1.93) Remiza: 3.55;29227;B2;3.86
+Smouha  (3.35) VS  Zamalek (2.11) Remiza: 3.05;25285;B5;1.06;1.53
+Akwa United  (1.43) VS  Dakkada FC (5.3) Remiza: 3.85;24531;B1;2.86
+Vilafranquense  (3.8) VS  Arouca (2.0) Remiza: 3.2;29487;B5;1.0;1.6
+Darlington  (1.4) VS  Blyth Spartans (6.3) Remiza: 4.4;29870;B1;2.8
+York City  (1.63) VS  Guiseley (4.15) Remiza: 4.05;29876;B1;3.26
+Fylde  (1.7) VS  Southport (4.05) Remiza: 3.75;29866;B1;3.4
+Leamington  (1.85) VS  Hereford (3.5) Remiza: 3.65;29875;B1;3.7
+Chester  (2.02) VS  Chorley (3.05) Remiza: 3.6;29873;B3;1.01;1.53
+Kidderminster  (2.12) VS  Telford (3.05) Remiza: 3.32;29874;B3;1.06;1.53
+Gateshead  (2.27) VS  Spennymoor (2.8) Remiza: 3.3;29872;B3;1.14;1.4
+Brackley T.  (2.3) VS  Gloucester City (2.65) Remiza: 3.45;29868;B3;1.15;1.33
+Alfreton  (2.33) VS  Kettering (2.62) Remiza: 3.45;29867;B3;1.17;1.31
+Curzon Ashton  (2.33) VS  Bradford PA (2.56) Remiza: 3.55;29869;B3;1.17;1.28
+Farsley  (2.51) VS  Boston Utd. (2.35) Remiza: 3.6;29871;B3;1.18;1.25
+Billericay  (1.82) VS  Braintree (3.45) Remiza: 3.8;29953;B1;3.64
+Hampton Richmond  (1.92) VS  Dulwich Hamlet (3.35) Remiza: 3.55;29956;B1;3.84
+Bath City  (2.48) VS  Hungerford (2.4) Remiza: 3.55;29910;B3;1.2;1.24
+Besiktas  (1.85) VS  Sivasspor (3.9) Remiza: 3.65;788;B1;3.7
+Antalyaspor  (2.4) VS  Hatayspor (2.93) Remiza: 3.15;656;B3;1.2;1.47
+Bursa  (1.44) VS  Eskisehir (5.9) Remiza: 4.25;29498;B1;2.88
+Mjondalen  (2.4) VS  Sogndal (2.76) Remiza: 3.25;1001;B3;1.2;1.38
+Al Suwaiq  (2.4) VS  Al Nahda (2.62) Remiza: 3.2;25382;B3;1.2;1.31
+Inter Nouakchott  (2.91) VS  Medine Trarza (2.2) Remiza: 3.2;25392;B3;1.1;1.46
+AEL Limassol  (1.5) VS  Olymp.Nicosia (5.2) Remiza: 4.4;29228;B1;3.0
+Municipal  (1.5) VS  Xelaju (5.0) Remiza: 4.0;29173;B1;3.0
+Guastatoya  (1.67) VS  Iztapa (4.0) Remiza: 3.8;29172;B1;3.34
+Dep.Achuapa  (2.05) VS  Santa Lucia (3.17) Remiza: 3.25;29170;B3;1.02;1.59
+Cobán Imperial  (2.13) VS  Comunicaciones (3.08) Remiza: 3.15;29169;B3;1.07;1.54
+Sacachispas  (2.2) VS  Antigua GFC (2.76) Remiza: 3.4;29174;B3;1.1;1.38
+Dep.Sanarate  (2.4) VS  Malacateco (2.62) Remiza: 3.2;29171;B3;1.2;1.31
+Chelsea  (1.71) VS  Aston Villa (4.85) Remiza: 4.25;23377;B1;3.42
+Al Ahly SC (EGY)  (1.37) VS  Al Ittihad (7.1) Remiza: 4.4;25286;B1;2.74
+Beitar Jerus.  (2.0) VS  FC Ashdod (3.45) Remiza: 3.35;29186;B4;1.0;1.68
+Rio Ave  (1.86) VS  Maritimo (4.3) Remiza: 3.4;24249;B1;3.72
+Hap.Tel Aviv  (7.9) VS  Mac.Tel Aviv (1.39) Remiza: 4.15;29187;B2;2.78
+Everton  (6.4) VS  Manch.City (1.52) Remiza: 4.75;23376;B2;3.04
+Brasil Pelotas RS  (2.55) VS  Confianca SE (3.05) Remiza: 2.8;29379;B4;1.27;1.4
+Platense  (2.22) VS  Agropecuario (3.5) Remiza: 2.85;29373;B4;1.11;1.43
+Santamarina  (2.6) VS  Brown de Adrogué (3.15) Remiza: 2.6;29367;B4;1.3;1.3
+Dep.Riestra  (2.6) VS  Sarmiento (3.15) Remiza: 2.6;29369;B4;1.3;1.3
+Boavista  (4.4) VS  Braga (1.81) Remiza: 3.6;24236;B2;3.62
+Argentinos  (2.25) VS  CA Independiente (3.15) Remiza: 3.1;12076;B4;1.13;1.55
+Chapecoense SC  (1.71) VS  Paraná PR (6.1) Remiza: 3.05;1394;B1;3.42

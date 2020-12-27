@@ -1,3 +1,28 @@
-Buducnost Podgorica  (1.22) VS  Krka (4.8);21120;B1;2.44
-Milwaukee  (1.26) VS  Golden State (4.5);15666;B1;2.52
-Denver  (2.0) VS  LA Clippers (2.0);15667;B3;1.0;1.0
+New Orleans  (1.54) VS  S.Antonio (2.94) Remiza: 13.5;20064;B1;3.08
+Washington  (2.16) VS  Orlando (1.93) Remiza: 12.0;20083;B2;3.86
+Charlotte  (5.7) VS  Brooklyn (1.2) Remiza: 18.0;17018;B2;2.4
+Irvine  (2.12) VS  Santa Barbara (1.8) Remiza: 12.0;4139;B2;3.6
+Cleveland  (3.7) VS  Philadelphia (1.38) Remiza: 14.5;16995;B2;2.76
+New York  (8.0) VS  Milwaukee (1.13) Remiza: 18.5;20068;B2;2.26
+Indiana  (2.33) VS  Boston (1.8) Remiza: 12.5;18247;B2;3.6
+Chicago  (2.58) VS  Golden State (1.67) Remiza: 13.0;17019;B2;3.34
+Sacramento  (2.41) VS  Phoenix (1.75) Remiza: 13.0;20077;B2;3.5
+LA Lakers  (1.24) VS  Minnesota (5.0) Remiza: 17.0;19020;B1;2.48
+Nanjing  (2.6) VS  Fujian (1.55) Remiza: 14.5;22195;B2;3.1
+Guangdong  (1.07) VS  Shanghai (8.6) Remiza: 21.0;22193;B1;2.14
+Xinjiang  (1.19) VS  Beijing Royal Fighters (4.95) Remiza: 18.0;22198;B1;2.38
+LG Sakers  (2.63) VS  Mobis Phoebus (1.54) Remiza: 14.5;23298;B2;3.08
+KEB Hana Bank  (4.35) VS  Woori Bank Wibee (1.23) Remiza: 17.5;23306;B2;2.46
+Zhejiang Lions  (2.53) VS  Jilin (1.58) Remiza: 14.0;22205;B2;3.16
+Tianjin  (2.37) VS  Sichuan (1.65) Remiza: 14.0;22197;B2;3.3
+N.Novgorod  (1.19) VS  Kalev Cramo (5.5) Remiza: 19.0;21154;B1;2.38
+KTP Kotka  (1.02) VS  UU Korihait (15.5) Remiza: 24.0;22551;B1;2.04
+Helsinki Seagulls  (1.03) VS  Ura Basket (13.5) Remiza: 24.0;22353;B1;2.06
+Nevezis  (2.34) VS  Pieno Zvaigzdes (1.7) Remiza: 14.0;23327;B2;3.4
+Spojnia Stargard  (1.75) VS  Gliwice (2.25) Remiza: 14.0;4949;B1;3.5
+Bakken Bears  (1.08) VS  Horsens (8.1) Remiza: 20.0;22252;B1;2.16
+Hap.Jerusalem  (1.18) VS  Ironi Ness Ziona (5.8) Remiza: 18.0;22834;B1;2.36
+ECE Triglav  (2.92) VS  Polzela (1.45) Remiza: 15.0;23421;B2;2.9
+Atlanta  (1.36) VS  Detroit (3.7) Remiza: 14.0;20700;B1;2.72
+Oklahoma  (3.0) VS  Utah (1.5) Remiza: 13.0;20704;B2;3.0
+Denver  (1.26) VS  Houston (3.9) Remiza: 16.0;20702;B1;2.52
